@@ -55,6 +55,8 @@
 		0187EF132908FEB9009049C1 /* MTVideoSpeedC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF122908FEB9009049C1 /* MTVideoSpeedC.m */; };
 		0187EF1729090D5A009049C1 /* MTMixVideoC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF1629090D5A009049C1 /* MTMixVideoC.m */; };
 		0187EF1929090DFB009049C1 /* MyHeartWillGoOn.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0187EF1829090DFB009049C1 /* MyHeartWillGoOn.mp4 */; };
+		0187EF2029091D62009049C1 /* MTPanoramicPlayerC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF1F29091D62009049C1 /* MTPanoramicPlayerC.m */; };
+		0187EF2329091DAA009049C1 /* MTRenderV.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF2229091DAA009049C1 /* MTRenderV.m */; };
 		01A5D9FF28F4FB1200669676 /* MTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5D9FE28F4FB1200669676 /* MTNavigationController.m */; };
 		01A5DA0328F4FF1B00669676 /* MTScanC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5DA0228F4FF1B00669676 /* MTScanC.m */; };
 		01A5DA0728F5011400669676 /* MTFilterC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5DA0628F5011400669676 /* MTFilterC.m */; };
@@ -217,6 +219,10 @@
 		0187EF1529090D5A009049C1 /* MTMixVideoC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMixVideoC.h; sourceTree = "<group>"; };
 		0187EF1629090D5A009049C1 /* MTMixVideoC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTMixVideoC.m; sourceTree = "<group>"; };
 		0187EF1829090DFB009049C1 /* MyHeartWillGoOn.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyHeartWillGoOn.mp4; sourceTree = "<group>"; };
+		0187EF1E29091D62009049C1 /* MTPanoramicPlayerC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPanoramicPlayerC.h; sourceTree = "<group>"; };
+		0187EF1F29091D62009049C1 /* MTPanoramicPlayerC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPanoramicPlayerC.m; sourceTree = "<group>"; };
+		0187EF2129091DAA009049C1 /* MTRenderV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRenderV.h; sourceTree = "<group>"; };
+		0187EF2229091DAA009049C1 /* MTRenderV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRenderV.m; sourceTree = "<group>"; };
 		01A5D9FC28F4F84700669676 /* MTToolMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTToolMacro.h; sourceTree = "<group>"; };
 		01A5D9FD28F4FB1200669676 /* MTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTNavigationController.h; sourceTree = "<group>"; };
 		01A5D9FE28F4FB1200669676 /* MTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTNavigationController.m; sourceTree = "<group>"; };
@@ -553,6 +559,17 @@
 			path = MixVideo;
 			sourceTree = "<group>";
 		};
+		0187EF1D29091D4D009049C1 /* PanoramicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0187EF1E29091D62009049C1 /* MTPanoramicPlayerC.h */,
+				0187EF1F29091D62009049C1 /* MTPanoramicPlayerC.m */,
+				0187EF2129091DAA009049C1 /* MTRenderV.h */,
+				0187EF2229091DAA009049C1 /* MTRenderV.m */,
+			);
+			path = PanoramicPlayer;
+			sourceTree = "<group>";
+		};
 		01A5DA0028F4FF0300669676 /* ScanTool */ = {
 			isa = PBXGroup;
 			children = (
@@ -862,6 +879,7 @@
 		01E842C328F691AA00F9012D /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				0187EF1D29091D4D009049C1 /* PanoramicPlayer */,
 				01ED761A28FD515C00132A08 /* Pasteboard */,
 				01E842D228F69CC100F9012D /* APM */,
 				01E842C728F6921300F9012D /* UnusedResource */,
@@ -1071,6 +1089,7 @@
 				0177B47F28F6CD11000873CD /* MTSystemCapture.m in Sources */,
 				01A5DA2D28F5107F00669676 /* MTShotFocusV.m in Sources */,
 				01A5DA0728F5011400669676 /* MTFilterC.m in Sources */,
+				0187EF2329091DAA009049C1 /* MTRenderV.m in Sources */,
 				0177B49028F7DD2F000873CD /* MTLiveVideoConfiguration.m in Sources */,
 				01A6E58B28F41D3C00A8DE17 /* ViewController.m in Sources */,
 				0177B3C028F6A42E000873CD /* MTProxy.m in Sources */,
@@ -1148,6 +1167,7 @@
 				01A5DA3C28F513A000669676 /* MTEditImageC.m in Sources */,
 				0177B3C628F6A5C2000873CD /* MTAPMURLProtocol.m in Sources */,
 				0177B3BD28F6A36E000873CD /* MTAPMFluency.m in Sources */,
+				0187EF2029091D62009049C1 /* MTPanoramicPlayerC.m in Sources */,
 				0187EF0F2908FE36009049C1 /* MTMediaC.m in Sources */,
 				01A5DA7228F54F3500669676 /* MTScanTool.m in Sources */,
 				0177B48328F7D7AA000873CD /* MTLiveSession.m in Sources */,

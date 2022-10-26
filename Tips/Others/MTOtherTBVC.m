@@ -7,6 +7,7 @@
 
 #import "MTOtherTBVC.h"
 #import "MTUnusedResourceC.h"
+#import "MTPanoramicPlayerC.h"
 
 @interface MTOtherTBVC ()
 
@@ -29,13 +30,15 @@
 
 - (NSArray *)dataSource{
     if (!_dataSource) {
-        _dataSource = @[@"ipa瘦身之扫描无用资源"];
+        _dataSource = @[@"ipa瘦身之扫描无用资源",
+        /*@"全景播放器"*/];
     }
     return _dataSource;
 }
 - (NSArray *)classArray{
     if (!_classArray) {
-        _classArray = @[[MTUnusedResourceC class]];
+        _classArray = @[[MTUnusedResourceC class],
+        [MTPanoramicPlayerC class]];
     }
     return _classArray;
 }
