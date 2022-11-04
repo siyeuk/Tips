@@ -43,13 +43,54 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         self.videoCapture.running = YES;
     });
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        [capture reverseCamera];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.videoCapture reverseCamera];
+    });
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(12 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.videoCapture openFlash];
+    });
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(14 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.videoCapture closeFlash];
+    });
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(16 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.videoCapture openAntiShake];
+    });
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(18 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.videoCapture closeAntiShake];
+    });
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(22 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.videoCapture openSlow];
+    });
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(28 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.videoCapture closeSlow];
+    });
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(14 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//
 //    });
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(16 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//
+//    });
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(18 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//
+//    });
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(20 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//
+//    });
+
+//    // 调节焦距
+//    - (void)changeFocus:(CGFloat)focus;
+//    // 数码变焦
+//    - (void)changeZoom:(CGFloat)zoom;
+//    // 调节ISO,光感度
+//    - (void)changeISO:(CGFloat)iso;
+//    // 点击屏幕自动对焦
+//    - (void)tap:(CGPoint)point;
+
+   
     // Do any additional setup after loading the view.
 }
 - (void)captureOutput:(nullable MTVideoCapture *)capture pixelBuffer:(nullable CMSampleBufferRef)pixelBuffer{
-    NSLog(@"十票");
+    NSLog(@"视频");
 }
 - (void)captureOutput:(nullable MTAudioCapture *)capture audioData:(nullable NSData*)audioData{
     NSLog(@"音频");

@@ -8,6 +8,10 @@
 #ifndef _____h
 #define _____h
 
+// 支持暴漏Document
+Supports opening documents in place
+Application supports iTunes file sharing
+
 /// 配置权限的XML格式
 <!-- 蓝牙 -->
 <key>NSBluetoothPeripheralUsageDescription</key>

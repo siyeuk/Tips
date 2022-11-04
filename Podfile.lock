@@ -1,24 +1,28 @@
 PODS:
   - GPUImage (0.1.7)
+  - libxlsxwriter (1.1.4)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
   - GPUImage
+  - libxlsxwriter (~> 1.1.4)
   - Masonry
   - MBProgressHUD
 
 SPEC REPOS:
   https://gitee.com/mirrors/CocoaPods-Specs.git:
     - GPUImage
+    - libxlsxwriter
     - Masonry
     - MBProgressHUD
 
 SPEC CHECKSUMS:
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  libxlsxwriter: f9f040bb01f0aabac1adb09f27c8cf542ae9a044
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
-PODFILE CHECKSUM: 862f8c39fc38f21cc63d46c144de0efdcad833e0
+PODFILE CHECKSUM: de2feb73a396e95930100632e24bf9927ea1dd59
 
 COCOAPODS: 1.11.3

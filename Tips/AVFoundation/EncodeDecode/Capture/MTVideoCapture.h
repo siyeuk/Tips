@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 - (void)captureOutput:(nullable MTVideoCapture *)capture pixelBuffer:(nullable CMSampleBufferRef)pixelBuffer;
 
+- (void)captureOutput:(nullable MTVideoCapture *)capture newbuffer:(uint8_t *)newbuffer dataSize:(size_t)dataSize;
+
 @end
 
 @interface MTVideoCapture : NSObject
@@ -36,6 +38,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 切换摄像头
 - (void)reverseCamera;
+/*
+ 设置分辨率
+ 目前支持最大的是3840*2160,如果不要求相机帧率大于30帧,此方法可以适用于你
+ */
+- (void)setCameraResolutionByPreset:(AVCaptureSessionPreset)sessionPreset;
+
+// 调整帧率 仅适用于frame rate <=30
+- (void)changeFrameRate:(int)frameRate;
+// 设置高帧率 fps > 30
+
 // 打开闪光灯
 - (void)openFlash;
 // 关闭闪光灯

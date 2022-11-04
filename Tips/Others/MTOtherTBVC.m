@@ -7,6 +7,9 @@
 
 #import "MTOtherTBVC.h"
 #import "MTUnusedResourceC.h"
+#import "MTExcelVC.h"
+#import "MTCalculatorC.h"
+
 #import "MTPanoramicPlayerC.h"
 
 @interface MTOtherTBVC ()
@@ -31,14 +34,18 @@
 - (NSArray *)dataSource{
     if (!_dataSource) {
         _dataSource = @[@"ipa瘦身之扫描无用资源",
-        /*@"全景播放器"*/];
+                        @"文件存Excel",
+                        @"计算",
+                        @"全景播放器"];
     }
     return _dataSource;
 }
 - (NSArray *)classArray{
     if (!_classArray) {
         _classArray = @[[MTUnusedResourceC class],
-        [MTPanoramicPlayerC class]];
+                        [MTExcelVC class],
+                        [MTCalculatorC class],
+                        [MTPanoramicPlayerC class]];
     }
     return _classArray;
 }
@@ -64,72 +71,18 @@
     
     UIViewController *vc = [[self.classArray[indexPath.row] alloc] init];
     switch (indexPath.row) {
-//        case 0:
-//        case 3:
-//        case 4:
-//        case 6:
-//            vc.modalPresentationStyle = UIModalPresentationFullScreen;
-//            [self presentViewController:vc animated:YES completion:nil];
-//            break;
+            //        case 0:
+            //        case 3:
+            //        case 4:
+            //        case 6:
+            //            vc.modalPresentationStyle = UIModalPresentationFullScreen;
+            //            [self presentViewController:vc animated:YES completion:nil];
+            //            break;
             
         default:
             [self.navigationController pushViewController:vc animated:YES];
             break;
     }
 }
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
-}
-*/
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

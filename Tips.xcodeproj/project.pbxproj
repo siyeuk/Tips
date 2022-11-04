@@ -41,6 +41,8 @@
 		0177B48928F7D980000873CD /* MTAudioCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0177B48828F7D980000873CD /* MTAudioCapture.m */; };
 		0177B48D28F7DCC9000873CD /* MTVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0177B48C28F7DCC9000873CD /* MTVideoCapture.m */; };
 		0177B49028F7DD2F000873CD /* MTLiveVideoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0177B48F28F7DD2F000873CD /* MTLiveVideoConfiguration.m */; };
+		017C87C82912001100A7EFF4 /* MTSocketC.m in Sources */ = {isa = PBXBuildFile; fileRef = 017C87C72912001100A7EFF4 /* MTSocketC.m */; };
+		017C88942913A65D00A7EFF4 /* MTCalculatorC.m in Sources */ = {isa = PBXBuildFile; fileRef = 017C88932913A65D00A7EFF4 /* MTCalculatorC.m */; };
 		0187EEEF2908C27C009049C1 /* MTAccelerometerC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EEEE2908C27C009049C1 /* MTAccelerometerC.m */; };
 		0187EEF22908C2B3009049C1 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 0187EEF02908C2B3009049C1 /* ball.png */; };
 		0187EEF32908C2B3009049C1 /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0187EEF12908C2B3009049C1 /* eyes.png */; };
@@ -48,15 +50,12 @@
 		0187EEF92908C378009049C1 /* MTBallV.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EEF82908C378009049C1 /* MTBallV.m */; };
 		0187EEFC2908C411009049C1 /* MTBallTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EEFB2908C411009049C1 /* MTBallTool.m */; };
 		0187EEFF2908C775009049C1 /* UIDevice+StateHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EEFE2908C775009049C1 /* UIDevice+StateHeight.m */; };
-		0187EF032908D4E9009049C1 /* MTMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF022908D4E9009049C1 /* MTMediaManager.m */; };
-		0187EF062908D51B009049C1 /* MTVideoCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF052908D51B009049C1 /* MTVideoCaptureManager.m */; };
 		0187EF0C2908FE12009049C1 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0187EF0B2908FE12009049C1 /* demo.mp4 */; };
 		0187EF0F2908FE36009049C1 /* MTMediaC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF0E2908FE36009049C1 /* MTMediaC.m */; };
 		0187EF132908FEB9009049C1 /* MTVideoSpeedC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF122908FEB9009049C1 /* MTVideoSpeedC.m */; };
 		0187EF1729090D5A009049C1 /* MTMixVideoC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF1629090D5A009049C1 /* MTMixVideoC.m */; };
 		0187EF1929090DFB009049C1 /* MyHeartWillGoOn.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0187EF1829090DFB009049C1 /* MyHeartWillGoOn.mp4 */; };
 		0187EF2029091D62009049C1 /* MTPanoramicPlayerC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF1F29091D62009049C1 /* MTPanoramicPlayerC.m */; };
-		0187EF2329091DAA009049C1 /* MTRenderV.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF2229091DAA009049C1 /* MTRenderV.m */; };
 		01A5D9FF28F4FB1200669676 /* MTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5D9FE28F4FB1200669676 /* MTNavigationController.m */; };
 		01A5DA0328F4FF1B00669676 /* MTScanC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5DA0228F4FF1B00669676 /* MTScanC.m */; };
 		01A5DA0728F5011400669676 /* MTFilterC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5DA0628F5011400669676 /* MTFilterC.m */; };
@@ -108,6 +107,11 @@
 		01A6E5B528F4F60600A8DE17 /* MTBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E5B428F4F60600A8DE17 /* MTBlurView.m */; };
 		01A6E5B828F4F6C300A8DE17 /* UIImage+MTCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E5B728F4F6C300A8DE17 /* UIImage+MTCommon.m */; };
 		01A6E5BB28F4F70400A8DE17 /* UIColor+MTCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E5BA28F4F70400A8DE17 /* UIColor+MTCommon.m */; };
+		01D95449290B6E70003B55EB /* MTCoreTextC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D95448290B6E70003B55EB /* MTCoreTextC.m */; };
+		01D9D9AA290A6FD700601475 /* MTExcelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D9D9A7290A6FD700601475 /* MTExcelManager.m */; };
+		01D9D9AB290A6FD700601475 /* MTExcelStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D9D9A8290A6FD700601475 /* MTExcelStyleModel.m */; };
+		01D9D9AE290A6FEF00601475 /* MTExcelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D9D9AD290A6FEF00601475 /* MTExcelVC.m */; };
+		01D9D9B0290A761100601475 /* quanjingpic.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D9D9AF290A761100601475 /* quanjingpic.png */; };
 		01E842B628F6660E00F9012D /* MTAVEncodeDecodeC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E842B528F6660E00F9012D /* MTAVEncodeDecodeC.m */; };
 		01E842B928F6664100F9012D /* MTAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E842B828F6664100F9012D /* MTAudioEncoder.m */; };
 		01E842BD28F68B9700F9012D /* MTGPUImageC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E842BC28F68B9700F9012D /* MTGPUImageC.m */; };
@@ -195,6 +199,10 @@
 		0177B48C28F7DCC9000873CD /* MTVideoCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTVideoCapture.m; sourceTree = "<group>"; };
 		0177B48E28F7DD2F000873CD /* MTLiveVideoConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLiveVideoConfiguration.h; sourceTree = "<group>"; };
 		0177B48F28F7DD2F000873CD /* MTLiveVideoConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLiveVideoConfiguration.m; sourceTree = "<group>"; };
+		017C87C62912001100A7EFF4 /* MTSocketC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTSocketC.h; sourceTree = "<group>"; };
+		017C87C72912001100A7EFF4 /* MTSocketC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTSocketC.m; sourceTree = "<group>"; };
+		017C88922913A65D00A7EFF4 /* MTCalculatorC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCalculatorC.h; sourceTree = "<group>"; };
+		017C88932913A65D00A7EFF4 /* MTCalculatorC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCalculatorC.m; sourceTree = "<group>"; };
 		0187EEED2908C27C009049C1 /* MTAccelerometerC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAccelerometerC.h; sourceTree = "<group>"; };
 		0187EEEE2908C27C009049C1 /* MTAccelerometerC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAccelerometerC.m; sourceTree = "<group>"; };
 		0187EEF02908C2B3009049C1 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
@@ -207,10 +215,6 @@
 		0187EEFB2908C411009049C1 /* MTBallTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBallTool.m; sourceTree = "<group>"; };
 		0187EEFD2908C775009049C1 /* UIDevice+StateHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+StateHeight.h"; sourceTree = "<group>"; };
 		0187EEFE2908C775009049C1 /* UIDevice+StateHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+StateHeight.m"; sourceTree = "<group>"; };
-		0187EF012908D4E9009049C1 /* MTMediaManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMediaManager.h; sourceTree = "<group>"; };
-		0187EF022908D4E9009049C1 /* MTMediaManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTMediaManager.m; sourceTree = "<group>"; };
-		0187EF042908D51B009049C1 /* MTVideoCaptureManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTVideoCaptureManager.h; sourceTree = "<group>"; };
-		0187EF052908D51B009049C1 /* MTVideoCaptureManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTVideoCaptureManager.m; sourceTree = "<group>"; };
 		0187EF0B2908FE12009049C1 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
 		0187EF0D2908FE36009049C1 /* MTMediaC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMediaC.h; sourceTree = "<group>"; };
 		0187EF0E2908FE36009049C1 /* MTMediaC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTMediaC.m; sourceTree = "<group>"; };
@@ -221,8 +225,6 @@
 		0187EF1829090DFB009049C1 /* MyHeartWillGoOn.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyHeartWillGoOn.mp4; sourceTree = "<group>"; };
 		0187EF1E29091D62009049C1 /* MTPanoramicPlayerC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPanoramicPlayerC.h; sourceTree = "<group>"; };
 		0187EF1F29091D62009049C1 /* MTPanoramicPlayerC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPanoramicPlayerC.m; sourceTree = "<group>"; };
-		0187EF2129091DAA009049C1 /* MTRenderV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRenderV.h; sourceTree = "<group>"; };
-		0187EF2229091DAA009049C1 /* MTRenderV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRenderV.m; sourceTree = "<group>"; };
 		01A5D9FC28F4F84700669676 /* MTToolMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTToolMacro.h; sourceTree = "<group>"; };
 		01A5D9FD28F4FB1200669676 /* MTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTNavigationController.h; sourceTree = "<group>"; };
 		01A5D9FE28F4FB1200669676 /* MTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTNavigationController.m; sourceTree = "<group>"; };
@@ -325,6 +327,15 @@
 		01A6E5B728F4F6C300A8DE17 /* UIImage+MTCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MTCommon.m"; sourceTree = "<group>"; };
 		01A6E5B928F4F70400A8DE17 /* UIColor+MTCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MTCommon.h"; sourceTree = "<group>"; };
 		01A6E5BA28F4F70400A8DE17 /* UIColor+MTCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MTCommon.m"; sourceTree = "<group>"; };
+		01D95447290B6E70003B55EB /* MTCoreTextC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCoreTextC.h; sourceTree = "<group>"; };
+		01D95448290B6E70003B55EB /* MTCoreTextC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCoreTextC.m; sourceTree = "<group>"; };
+		01D9D9A6290A6FD700601475 /* MTExcelStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTExcelStyleModel.h; sourceTree = "<group>"; };
+		01D9D9A7290A6FD700601475 /* MTExcelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTExcelManager.m; sourceTree = "<group>"; };
+		01D9D9A8290A6FD700601475 /* MTExcelStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTExcelStyleModel.m; sourceTree = "<group>"; };
+		01D9D9A9290A6FD700601475 /* MTExcelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTExcelManager.h; sourceTree = "<group>"; };
+		01D9D9AC290A6FEF00601475 /* MTExcelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTExcelVC.h; sourceTree = "<group>"; };
+		01D9D9AD290A6FEF00601475 /* MTExcelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTExcelVC.m; sourceTree = "<group>"; };
+		01D9D9AF290A761100601475 /* quanjingpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quanjingpic.png; sourceTree = "<group>"; };
 		01E842B428F6660E00F9012D /* MTAVEncodeDecodeC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAVEncodeDecodeC.h; sourceTree = "<group>"; };
 		01E842B528F6660E00F9012D /* MTAVEncodeDecodeC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAVEncodeDecodeC.m; sourceTree = "<group>"; };
 		01E842B728F6664100F9012D /* MTAudioEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAudioEncoder.h; sourceTree = "<group>"; };
@@ -507,6 +518,24 @@
 			path = Capture;
 			sourceTree = "<group>";
 		};
+		017C87C52911FFFB00A7EFF4 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				017C87C62912001100A7EFF4 /* MTSocketC.h */,
+				017C87C72912001100A7EFF4 /* MTSocketC.m */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		017C88912913A62C00A7EFF4 /* Cal */ = {
+			isa = PBXGroup;
+			children = (
+				017C88922913A65D00A7EFF4 /* MTCalculatorC.h */,
+				017C88932913A65D00A7EFF4 /* MTCalculatorC.m */,
+			);
+			path = Cal;
+			sourceTree = "<group>";
+		};
 		0187EEEC2908C259009049C1 /* Accelerometer */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,10 +558,6 @@
 			children = (
 				0187EF1429090D4B009049C1 /* MixVideo */,
 				0187EF102908FEA5009049C1 /* VideoSpeed */,
-				0187EF012908D4E9009049C1 /* MTMediaManager.h */,
-				0187EF022908D4E9009049C1 /* MTMediaManager.m */,
-				0187EF042908D51B009049C1 /* MTVideoCaptureManager.h */,
-				0187EF052908D51B009049C1 /* MTVideoCaptureManager.m */,
 				0187EF0D2908FE36009049C1 /* MTMediaC.h */,
 				0187EF0E2908FE36009049C1 /* MTMediaC.m */,
 			);
@@ -562,10 +587,9 @@
 		0187EF1D29091D4D009049C1 /* PanoramicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				01D9D9AF290A761100601475 /* quanjingpic.png */,
 				0187EF1E29091D62009049C1 /* MTPanoramicPlayerC.h */,
 				0187EF1F29091D62009049C1 /* MTPanoramicPlayerC.m */,
-				0187EF2129091DAA009049C1 /* MTRenderV.h */,
-				0187EF2229091DAA009049C1 /* MTRenderV.m */,
 			);
 			path = PanoramicPlayer;
 			sourceTree = "<group>";
@@ -713,12 +737,12 @@
 				01A6E58728F41D3C00A8DE17 /* SceneDelegate.m */,
 				01A6E58928F41D3C00A8DE17 /* ViewController.h */,
 				01A6E58A28F41D3C00A8DE17 /* ViewController.m */,
+				0177B3AC28F6A0B7000873CD /* 提示文档.h */,
 				01E842BE28F68DA000F9012D /* Assets.xcassets */,
 				01A6E58C28F41D3C00A8DE17 /* Main.storyboard */,
 				01A6E59128F41D3D00A8DE17 /* LaunchScreen.storyboard */,
 				01A6E59428F41D3D00A8DE17 /* Info.plist */,
 				01A6E59528F41D3D00A8DE17 /* main.m */,
-				0177B3AC28F6A0B7000873CD /* 提示文档.h */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
@@ -843,6 +867,28 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		01D95446290B6E5F003B55EB /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+				01D95447290B6E70003B55EB /* MTCoreTextC.h */,
+				01D95448290B6E70003B55EB /* MTCoreTextC.m */,
+			);
+			path = CoreText;
+			sourceTree = "<group>";
+		};
+		01D9D9A5290A6FD700601475 /* Excel */ = {
+			isa = PBXGroup;
+			children = (
+				01D9D9AC290A6FEF00601475 /* MTExcelVC.h */,
+				01D9D9AD290A6FEF00601475 /* MTExcelVC.m */,
+				01D9D9A9290A6FD700601475 /* MTExcelManager.h */,
+				01D9D9A7290A6FD700601475 /* MTExcelManager.m */,
+				01D9D9A6290A6FD700601475 /* MTExcelStyleModel.h */,
+				01D9D9A8290A6FD700601475 /* MTExcelStyleModel.m */,
+			);
+			path = Excel;
+			sourceTree = "<group>";
+		};
 		01E842B328F665F500F9012D /* EncodeDecode */ = {
 			isa = PBXGroup;
 			children = (
@@ -879,6 +925,10 @@
 		01E842C328F691AA00F9012D /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				017C88912913A62C00A7EFF4 /* Cal */,
+				017C87C52911FFFB00A7EFF4 /* Socket */,
+				01D95446290B6E5F003B55EB /* CoreText */,
+				01D9D9A5290A6FD700601475 /* Excel */,
 				0187EF1D29091D4D009049C1 /* PanoramicPlayer */,
 				01ED761A28FD515C00132A08 /* Pasteboard */,
 				01E842D228F69CC100F9012D /* APM */,
@@ -1026,6 +1076,7 @@
 				01A6E59328F41D3D00A8DE17 /* LaunchScreen.storyboard in Resources */,
 				01A6E58E28F41D3C00A8DE17 /* Main.storyboard in Resources */,
 				01E842BF28F68DA000F9012D /* Assets.xcassets in Resources */,
+				01D9D9B0290A761100601475 /* quanjingpic.png in Resources */,
 				0187EF0C2908FE12009049C1 /* demo.mp4 in Resources */,
 				0187EF1929090DFB009049C1 /* MyHeartWillGoOn.mp4 in Resources */,
 				0187EEF32908C2B3009049C1 /* eyes.png in Resources */,
@@ -1089,7 +1140,6 @@
 				0177B47F28F6CD11000873CD /* MTSystemCapture.m in Sources */,
 				01A5DA2D28F5107F00669676 /* MTShotFocusV.m in Sources */,
 				01A5DA0728F5011400669676 /* MTFilterC.m in Sources */,
-				0187EF2329091DAA009049C1 /* MTRenderV.m in Sources */,
 				0177B49028F7DD2F000873CD /* MTLiveVideoConfiguration.m in Sources */,
 				01A6E58B28F41D3C00A8DE17 /* ViewController.m in Sources */,
 				0177B3C028F6A42E000873CD /* MTProxy.m in Sources */,
@@ -1103,6 +1153,7 @@
 				01A6E58528F41D3C00A8DE17 /* AppDelegate.m in Sources */,
 				01718EF02907D3EB00FF38C3 /* MTDistanceC.m in Sources */,
 				0130798528F7E6DF00AE82F7 /* MTVideoEncoder.m in Sources */,
+				01D9D9AE290A6FEF00601475 /* MTExcelVC.m in Sources */,
 				01A5DA6328F53F5C00669676 /* MTGridV.m in Sources */,
 				01718EEC2907D31400FF38C3 /* UIImageView+Tranform3D.m in Sources */,
 				0187EF132908FEB9009049C1 /* MTVideoSpeedC.m in Sources */,
@@ -1114,15 +1165,14 @@
 				01A5DA0328F4FF1B00669676 /* MTScanC.m in Sources */,
 				01A5DA3328F5115300669676 /* UIView+MTImage.m in Sources */,
 				0130798928F7E74B00AE82F7 /* MTFrame.m in Sources */,
-				0187EF062908D51B009049C1 /* MTVideoCaptureManager.m in Sources */,
 				01A5DA4E28F519AA00669676 /* MTEditTextV.m in Sources */,
 				0130798F28F7E7BC00AE82F7 /* MTVideoFrame.m in Sources */,
 				01A5DA1228F5029400669676 /* MTLoadImageC.m in Sources */,
 				01A6E5AD28F4272700A8DE17 /* MTColorPickerC.m in Sources */,
+				01D9D9AB290A6FD700601475 /* MTExcelStyleModel.m in Sources */,
 				01ED761D28FD517400132A08 /* MTPasteC.m in Sources */,
 				01A5DA5728F5348300669676 /* MTImageZoomV.m in Sources */,
 				01A6E5B828F4F6C300A8DE17 /* UIImage+MTCommon.m in Sources */,
-				0187EF032908D4E9009049C1 /* MTMediaManager.m in Sources */,
 				01ED762028FD540F00132A08 /* MTPasteBoardUtils.m in Sources */,
 				01A5DA1F28F509DF00669676 /* MTAVCaptureTool.m in Sources */,
 				0177B3CD28F6A78F000873CD /* MTAPMLoadTime.m in Sources */,
@@ -1162,10 +1212,12 @@
 				01A5DA7528F5575700669676 /* MTScanV.m in Sources */,
 				0177B3B228F6A1FE000873CD /* MTAPMCpu.m in Sources */,
 				01718EDD2907C49600FF38C3 /* MTSensorC.m in Sources */,
+				017C87C82912001100A7EFF4 /* MTSocketC.m in Sources */,
 				01A6E5A728F4224600A8DE17 /* UIView+MTFrame.m in Sources */,
 				013079C528F8F85200AE82F7 /* MTWebViewC.m in Sources */,
 				01A5DA3C28F513A000669676 /* MTEditImageC.m in Sources */,
 				0177B3C628F6A5C2000873CD /* MTAPMURLProtocol.m in Sources */,
+				01D95449290B6E70003B55EB /* MTCoreTextC.m in Sources */,
 				0177B3BD28F6A36E000873CD /* MTAPMFluency.m in Sources */,
 				0187EF2029091D62009049C1 /* MTPanoramicPlayerC.m in Sources */,
 				0187EF0F2908FE36009049C1 /* MTMediaC.m in Sources */,
@@ -1174,6 +1226,7 @@
 				01718EFB2907D98A00FF38C3 /* MTScaleView.m in Sources */,
 				01A6E5A328F41E7F00A8DE17 /* MTAVListC.m in Sources */,
 				0187EF1729090D5A009049C1 /* MTMixVideoC.m in Sources */,
+				017C88942913A65D00A7EFF4 /* MTCalculatorC.m in Sources */,
 				013079CE28F90B8800AE82F7 /* MTWebTBVC.m in Sources */,
 				01A5DA1C28F5099600669676 /* MTShotC.m in Sources */,
 				01A5DA2228F50A2B00669676 /* MTAVWriteInput.m in Sources */,
@@ -1181,6 +1234,7 @@
 				01A5DA6F28F546C000669676 /* MTEditVideoClipping.m in Sources */,
 				01A5DA4828F5170E00669676 /* MTImageView.m in Sources */,
 				01A5DA6928F544C700669676 /* MTKeyChain.m in Sources */,
+				01D9D9AA290A6FD700601475 /* MTExcelManager.m in Sources */,
 				01E842B628F6660E00F9012D /* MTAVEncodeDecodeC.m in Sources */,
 				0177B3AF28F6A1D0000873CD /* MTAPMManager.m in Sources */,
 				01718EE82907CF0100FF38C3 /* MTMotionC.m in Sources */,

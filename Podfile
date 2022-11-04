@@ -3,6 +3,7 @@ source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
 platform :ios,’14.0’
 target "Tips" do
   
+pod 'libxlsxwriter', '~> 1.1.4'
 pod 'GPUImage'
 #pod 'MLeaksFinder'
 pod 'MBProgressHUD'

@@ -101,6 +101,30 @@
         self.videoConnection.videoMirrored = YES;
     }
 }
+- (void)setCameraResolutionByPreset:(AVCaptureSessionPreset)sessionPreset{
+    if ([self.captureSession.sessionPreset isEqualToString:sessionPreset]) {
+        NSLog(@"已是当前分辨率");
+        return;
+    }
+    if ([self.captureSession canSetSessionPreset:sessionPreset]) {
+        NSLog(@"不能设置当前分辨率");
+        return;
+    }
+    [self.captureSession beginConfiguration];
+    self.captureSession.sessionPreset = sessionPreset;
+    [self.captureSession commitConfiguration];
+}
+// 调整帧率 
+- (void)changeFrameRate:(int)frameRate{
+    AVCaptureDevice *captureDevice = [self getCameraDeviceWithPosition:self.devicePosition];
+    NSError *error;
+    if ([captureDevice lockForConfiguration:&error]){
+        [captureDevice setActiveVideoMinFrameDuration:CMTimeMake(1, frameRate)];
+        [captureDevice setActiveVideoMaxFrameDuration:CMTimeMake(1, frameRate)];
+        [captureDevice unlockForConfiguration];
+    }
+    
+}
 // 打开闪光灯
 - (void)openFlash{
     AVCaptureDevice *captureDevice = [self getCameraDeviceWithPosition:self.devicePosition];
@@ -315,6 +339,32 @@
     if (!self.capturePaused) {
         if ([self.delegate respondsToSelector:@selector(captureOutput:pixelBuffer:)]) {
             [self.delegate captureOutput:self pixelBuffer:sampleBuffer];
+        }
+    }
+    if ([self.delegate respondsToSelector:@selector(captureOutput:newbuffer:dataSize:)]) {
+        // 为媒体数据设置一个CMSampleBuffer的Core Video图像缓存对象
+        CVImageBufferRef imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
+        // 锁定pixel buffer的基地址
+        if (CVPixelBufferLockBaseAddress(imageBuffer, 0) == kCVReturnSuccess) {
+            // 得到pixel buffer的基地址
+            uint8_t *bufferPtr = (uint8_t *)CVPixelBufferGetBaseAddressOfPlane(imageBuffer, 0);
+            uint8_t *uvPtr = (uint8_t *)CVPixelBufferGetBaseAddressOfPlane(imageBuffer, 1);
+            size_t bufferSize = CVPixelBufferGetDataSize(imageBuffer);
+            NSLog(@"=== buffsize : %zu",bufferSize);
+            bool isPlanar = CVPixelBufferIsPlanar(imageBuffer);
+            if (isPlanar) {
+                int planeCount = CVPixelBufferGetPlaneCount(imageBuffer);
+                NSLog(@"=== planeCount : %d \n ",planeCount);
+            }
+            size_t ysize = 640 * 480;
+            uint8_t *newbuffer = (uint8_t *)malloc(ysize * 1.5);
+            memcpy(newbuffer, bufferPtr, ysize * 1.5);
+            // 录制视频的原始数据 kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange
+            [self.delegate captureOutput:self newbuffer:newbuffer dataSize:ysize];
+            
+            free(newbuffer);
+            // 解锁pixel buffer
+            CVPixelBufferUnlockBaseAddress(imageBuffer, 0);
         }
     }
 }
