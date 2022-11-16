@@ -11,6 +11,7 @@
 #import "MTCalculatorC.h"
 #import "MTIGListKitC.h"
 #import "MTPanoramicPlayerC.h"
+#import "Tips-Swift.h"
 
 @interface MTOtherTBVC ()
 
@@ -37,16 +38,19 @@
                         @"文件存Excel",
                         @"计算",
                         @"IGListKitC",
+                        @"SwiftUI Charts",
                         @"全景播放器"];
     }
     return _dataSource;
 }
 - (NSArray *)classArray{
     if (!_classArray) {
+        
         _classArray = @[[MTUnusedResourceC class],
                         [MTExcelVC class],
                         [MTCalculatorC class],
                         [MTIGListKitC class],
+                        [UIViewController class],
                         [MTPanoramicPlayerC class]];
     }
     return _classArray;
@@ -80,7 +84,10 @@
             //            vc.modalPresentationStyle = UIModalPresentationFullScreen;
             //            [self presentViewController:vc animated:YES completion:nil];
             //            break;
-            
+        case 4:{
+            [self.navigationController pushViewController:[SwiftUIC chartController] animated:YES];
+            break;
+        }
         default:
             [self.navigationController pushViewController:vc animated:YES];
             break;
