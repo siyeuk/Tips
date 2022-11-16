@@ -8,6 +8,13 @@ pod 'GPUImage'
 #pod 'MLeaksFinder'
 pod 'MBProgressHUD'
 pod 'Masonry'
+
+pod 'SocketRocket', '~> 0.6.0'
+pod 'GoogleWebRTC', '~> 1.1.31999'
+
+pod 'IGListKit', '~> 4.0.0'
+
+pod 'MJExtension', '~> 3.4.1'
 #pod 'YYImage'
 #pod 'YYWebImage'
 #pod 'YYModel'

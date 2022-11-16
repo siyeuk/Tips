@@ -9,7 +9,7 @@
 #import "MTUnusedResourceC.h"
 #import "MTExcelVC.h"
 #import "MTCalculatorC.h"
-
+#import "MTIGListKitC.h"
 #import "MTPanoramicPlayerC.h"
 
 @interface MTOtherTBVC ()
@@ -36,6 +36,7 @@
         _dataSource = @[@"ipa瘦身之扫描无用资源",
                         @"文件存Excel",
                         @"计算",
+                        @"IGListKitC",
                         @"全景播放器"];
     }
     return _dataSource;
@@ -45,6 +46,7 @@
         _classArray = @[[MTUnusedResourceC class],
                         [MTExcelVC class],
                         [MTCalculatorC class],
+                        [MTIGListKitC class],
                         [MTPanoramicPlayerC class]];
     }
     return _classArray;
