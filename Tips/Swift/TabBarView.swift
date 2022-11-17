@@ -30,7 +30,7 @@ struct TabBarView: View {
             .tag(0)
             
             VStack {
-                HomeView()
+                CustomContentView()
             }
 //            .padding()
             .tabItem {

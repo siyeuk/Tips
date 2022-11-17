@@ -92,14 +92,14 @@
 //    [maneger save];
 //
     
-    UIButton *swift = [UIButton buttonWithType:UIButtonTypeCustom];
-    [swift setTitle:@"Swift" forState:UIControlStateNormal];
-    [swift setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [swift addTarget:self action:@selector(presentSwiftController) forControlEvents:UIControlEventTouchUpInside];
-    swift.backgroundColor = [UIColor orangeColor];
-    swift.frame = CGRectMake(self.view.mt_width - 100, self.view.mt_height - 200, 60, 60);
-    swift.layer.cornerRadius = 30;
-    [self.view addSubview:swift];
+//    UIButton *swift = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [swift setTitle:@"Swift" forState:UIControlStateNormal];
+//    [swift setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+//    [swift addTarget:self action:@selector(presentSwiftController) forControlEvents:UIControlEventTouchUpInside];
+//    swift.backgroundColor = [UIColor orangeColor];
+//    swift.frame = CGRectMake(self.view.mt_width - 100, self.view.mt_height - 200, 60, 60);
+//    swift.layer.cornerRadius = 30;
+//    [self.view addSubview:swift];
     // Do any additional setup after loading the view.
 }
 - (void)presentSwiftController{
