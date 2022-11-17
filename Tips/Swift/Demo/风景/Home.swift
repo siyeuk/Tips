@@ -21,17 +21,28 @@ struct Home: View {
     }
     
     @State var showingProfile = false
+    @State var showPath = false
     
     var profileButton: some View {
-        Button {
-            self.showingProfile.toggle()
-        } label: {
-            Image(systemName: "person.crop.circle")
-                .imageScale(.large)
-                .accessibilityLabel(Text("用户配置"))
-                .padding()
+        HStack {
+            Button {
+                self.showPath.toggle()
+            } label: {
+                Image(systemName: "bubble.left.and.bubble.right")
+                    .imageScale(.large)
+                    .accessibilityLabel(Text("出现图案"))
+                    .padding()
+            }
+            
+            Button {
+                self.showingProfile.toggle()
+            } label: {
+                Image(systemName: "person.crop.circle")
+                    .imageScale(.large)
+                    .accessibilityLabel(Text("用户配置"))
+                    .padding()
+            }
         }
-
     }
     
     var body: some View {
@@ -60,7 +71,18 @@ struct Home: View {
             .sheet(isPresented: $showingProfile) {
                 Text("用户配置")
             }
+            .fullScreenCover(isPresented: $showPath, onDismiss: didDismiss) {
+                Badge(badgePagePresented: $showPath)
+//                    .onTapGesture {
+//                        showPath.toggle()
+//                    }
+                
+            }
         }
+    }
+    
+    func didDismiss() {
+        print("did dismiss")
     }
 }
 
