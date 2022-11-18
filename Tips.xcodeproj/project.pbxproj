@@ -110,6 +110,10 @@
 		019F99DD292605E6005D74F6 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99DC292605E6005D74F6 /* BadgeBackground.swift */; };
 		019F99EC29263355005D74F6 /* CustomContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99EB29263355005D74F6 /* CustomContentView.swift */; };
 		019F99EE292634CD005D74F6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99ED292634CD005D74F6 /* ListView.swift */; };
+		019F99F3292635B6005D74F6 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99F2292635B6005D74F6 /* ListItemView.swift */; };
+		019F99F5292635EA005D74F6 /* ListItemHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 019F99F4292635EA005D74F6 /* ListItemHeader.png */; };
+		019F99F829263874005D74F6 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99F729263874005D74F6 /* NewsView.swift */; };
+		019F99FA29263901005D74F6 /* ListTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99F929263901005D74F6 /* ListTextView.swift */; };
 		01A5D9FF28F4FB1200669676 /* MTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5D9FE28F4FB1200669676 /* MTNavigationController.m */; };
 		01A5DA0328F4FF1B00669676 /* MTScanC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5DA0228F4FF1B00669676 /* MTScanC.m */; };
 		01A5DA0728F5011400669676 /* MTFilterC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5DA0628F5011400669676 /* MTFilterC.m */; };
@@ -351,6 +355,10 @@
 		019F99DC292605E6005D74F6 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		019F99EB29263355005D74F6 /* CustomContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContentView.swift; sourceTree = "<group>"; };
 		019F99ED292634CD005D74F6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		019F99F2292635B6005D74F6 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		019F99F4292635EA005D74F6 /* ListItemHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListItemHeader.png; sourceTree = "<group>"; };
+		019F99F729263874005D74F6 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		019F99F929263901005D74F6 /* ListTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTextView.swift; sourceTree = "<group>"; };
 		01A5D9FC28F4F84700669676 /* MTToolMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTToolMacro.h; sourceTree = "<group>"; };
 		01A5D9FD28F4FB1200669676 /* MTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTNavigationController.h; sourceTree = "<group>"; };
 		01A5D9FE28F4FB1200669676 /* MTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTNavigationController.m; sourceTree = "<group>"; };
@@ -820,6 +828,7 @@
 		019F996A29248DE8005D74F6 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				019F99F629263862005D74F6 /* Bytes */,
 				019F99EA29263348005D74F6 /* CustomDemo */,
 				019F99A22924E956005D74F6 /* Demo */,
 				019F996F2924AFAD005D74F6 /* extension */,
@@ -902,10 +911,29 @@
 		019F99EA29263348005D74F6 /* CustomDemo */ = {
 			isa = PBXGroup;
 			children = (
+				019F99EF2926359E005D74F6 /* ListView */,
 				019F99EB29263355005D74F6 /* CustomContentView.swift */,
-				019F99ED292634CD005D74F6 /* ListView.swift */,
 			);
 			path = CustomDemo;
+			sourceTree = "<group>";
+		};
+		019F99EF2926359E005D74F6 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				019F99ED292634CD005D74F6 /* ListView.swift */,
+				019F99F4292635EA005D74F6 /* ListItemHeader.png */,
+				019F99F2292635B6005D74F6 /* ListItemView.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		019F99F629263862005D74F6 /* Bytes */ = {
+			isa = PBXGroup;
+			children = (
+				019F99F729263874005D74F6 /* NewsView.swift */,
+				019F99F929263901005D74F6 /* ListTextView.swift */,
+			);
+			path = Bytes;
 			sourceTree = "<group>";
 		};
 		01A5DA0028F4FF0300669676 /* ScanTool */ = {
@@ -1416,6 +1444,7 @@
 				0187EEF32908C2B3009049C1 /* eyes.png in Resources */,
 				01718F012907E1DC00FF38C3 /* qiaoba.jpeg in Resources */,
 				019F99BC2925D085005D74F6 /* silversalmoncreek.jpg in Resources */,
+				019F99F5292635EA005D74F6 /* ListItemHeader.png in Resources */,
 				019F99BF2925D085005D74F6 /* lakemcdonald.jpg in Resources */,
 				019F99C42925D085005D74F6 /* chincoteague.jpg in Resources */,
 				01A5DA1528F5037300669676 /* Resources.bundle in Resources */,
@@ -1561,6 +1590,7 @@
 				01A6E5B128F4275C00A8DE17 /* MTAVCaptureSession.m in Sources */,
 				0177B3CA28F6A6BA000873CD /* UIViewController+MTAPMVCTime.m in Sources */,
 				0187EEF92908C378009049C1 /* MTBallV.m in Sources */,
+				019F99F3292635B6005D74F6 /* ListItemView.swift in Sources */,
 				01A5DA6028F538AA00669676 /* MTAlertView.m in Sources */,
 				01A5DA2528F50BBE00669676 /* MTAVPlayer.m in Sources */,
 				019F99D7292604AC005D74F6 /* Badge.swift in Sources */,
@@ -1571,6 +1601,7 @@
 				01A5DA6628F5423C00669676 /* MTMethod.m in Sources */,
 				0177B48928F7D980000873CD /* MTAudioCapture.m in Sources */,
 				013079CB28F9046000AE82F7 /* MTUrlProtocolAddCookie.m in Sources */,
+				019F99F829263874005D74F6 /* NewsView.swift in Sources */,
 				01A6E58828F41D3C00A8DE17 /* SceneDelegate.m in Sources */,
 				0130798C28F7E7B100AE82F7 /* MTAudioFrame.m in Sources */,
 				01A5DA3028F510E000669676 /* MTEditVideoC.m in Sources */,
@@ -1615,6 +1646,7 @@
 				01A5DA7228F54F3500669676 /* MTScanTool.m in Sources */,
 				0177B48328F7D7AA000873CD /* MTLiveSession.m in Sources */,
 				01718EFB2907D98A00FF38C3 /* MTScaleView.m in Sources */,
+				019F99FA29263901005D74F6 /* ListTextView.swift in Sources */,
 				01A6E5A328F41E7F00A8DE17 /* MTAVListC.m in Sources */,
 				0187EF1729090D5A009049C1 /* MTMixVideoC.m in Sources */,
 				017C88942913A65D00A7EFF4 /* MTCalculatorC.m in Sources */,

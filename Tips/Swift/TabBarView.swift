@@ -16,9 +16,8 @@ struct TabBarView: View {
     var body: some View {
         TabView(selection: $selectIndex) {
             VStack {
-                Home().environmentObject(UserData())
+                NewsView()
             }
-//            .padding()
             .tabItem {
                 if selectIndex == 0 {
                     Image("tab_book_sel")
@@ -30,18 +29,32 @@ struct TabBarView: View {
             .tag(0)
             
             VStack {
-                CustomContentView()
+                Home().environmentObject(UserData())
             }
 //            .padding()
             .tabItem {
                 if selectIndex == 1 {
+                    Image("tab_book_sel")
+                }else {
+                    Image("tab_book_nor")
+                }
+                Text("HOME")
+            }
+            .tag(1)
+            
+            VStack {
+                CustomContentView()
+            }
+//            .padding()
+            .tabItem {
+                if selectIndex == 2 {
                     Image("tab_my_sel")
                 }else {
                     Image("tab_my_nor")
                 }
                 Text("MY")
             }
-            .tag(1)
+            .tag(2)
         }
         // Use the asset catalog's accent color or View.tint(_:) instead.
         //        if #available(iOS 16.0, *) {
