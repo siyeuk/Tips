@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0102D169291BAA770028F207 /* MTWebRTCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102D168291BAA770028F207 /* MTWebRTCC.m */; };
+		0102D16C291BAAE70028F207 /* MTSignalingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102D16B291BAAE70028F207 /* MTSignalingClient.m */; };
+		0102D172291C90B80028F207 /* MTWebRTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102D171291C90B80028F207 /* MTWebRTC.m */; };
+		0102D175291C9B380028F207 /* MTGroupWebRTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102D174291C9B380028F207 /* MTGroupWebRTC.m */; };
+		010AD955291E322800560786 /* MTContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 010AD954291E322800560786 /* MTContentCell.m */; };
+		010AD958291E426400560786 /* MTImagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 010AD957291E426400560786 /* MTImagesCell.m */; };
+		010AD95B291E428C00560786 /* MTImagesCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 010AD95A291E428C00560786 /* MTImagesCellModel.m */; };
+		010AD95E291E434A00560786 /* NSArray+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 010AD95D291E434A00560786 /* NSArray+MTExtension.m */; };
 		0130798528F7E6DF00AE82F7 /* MTVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0130798428F7E6DF00AE82F7 /* MTVideoEncoder.m */; };
 		0130798928F7E74B00AE82F7 /* MTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0130798828F7E74B00AE82F7 /* MTFrame.m */; };
 		0130798C28F7E7B100AE82F7 /* MTAudioFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0130798B28F7E7B100AE82F7 /* MTAudioFrame.m */; };
@@ -43,6 +51,15 @@
 		0177B49028F7DD2F000873CD /* MTLiveVideoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0177B48F28F7DD2F000873CD /* MTLiveVideoConfiguration.m */; };
 		017C87C82912001100A7EFF4 /* MTSocketC.m in Sources */ = {isa = PBXBuildFile; fileRef = 017C87C72912001100A7EFF4 /* MTSocketC.m */; };
 		017C88942913A65D00A7EFF4 /* MTCalculatorC.m in Sources */ = {isa = PBXBuildFile; fileRef = 017C88932913A65D00A7EFF4 /* MTCalculatorC.m */; };
+		017C88A92914E0E900A7EFF4 /* VideoEncodeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 017C88A82914E0E900A7EFF4 /* VideoEncodeSpec.m */; };
+		017FF61A291CD86900A9488B /* MTC2CWebRTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 017FF619291CD86900A9488B /* MTC2CWebRTC.m */; };
+		017FF622291CE1A700A9488B /* MTChatC.m in Sources */ = {isa = PBXBuildFile; fileRef = 017FF620291CE1A700A9488B /* MTChatC.m */; };
+		017FF65A291E1B6000A9488B /* MTIGListKitC.m in Sources */ = {isa = PBXBuildFile; fileRef = 017FF659291E1B6000A9488B /* MTIGListKitC.m */; };
+		017FF65C291E1D4B00A9488B /* ListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 017FF65B291E1D4B00A9488B /* ListData.json */; };
+		017FF65F291E1E2600A9488B /* MTFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 017FF65E291E1E2600A9488B /* MTFeedModel.m */; };
+		017FF662291E1FC700A9488B /* MTFeedSectionC.m in Sources */ = {isa = PBXBuildFile; fileRef = 017FF661291E1FC700A9488B /* MTFeedSectionC.m */; };
+		017FF666291E237700A9488B /* MTUserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 017FF665291E237700A9488B /* MTUserInfoCell.m */; };
+		017FF66A291E23A300A9488B /* MTUserInfoCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 017FF669291E23A300A9488B /* MTUserInfoCellModel.m */; };
 		0187EEEF2908C27C009049C1 /* MTAccelerometerC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EEEE2908C27C009049C1 /* MTAccelerometerC.m */; };
 		0187EEF22908C2B3009049C1 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 0187EEF02908C2B3009049C1 /* ball.png */; };
 		0187EEF32908C2B3009049C1 /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0187EEF12908C2B3009049C1 /* eyes.png */; };
@@ -56,6 +73,47 @@
 		0187EF1729090D5A009049C1 /* MTMixVideoC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF1629090D5A009049C1 /* MTMixVideoC.m */; };
 		0187EF1929090DFB009049C1 /* MyHeartWillGoOn.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0187EF1829090DFB009049C1 /* MyHeartWillGoOn.mp4 */; };
 		0187EF2029091D62009049C1 /* MTPanoramicPlayerC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187EF1F29091D62009049C1 /* MTPanoramicPlayerC.m */; };
+		019F996629247B89005D74F6 /* LineChart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F996429247B89005D74F6 /* LineChart1.swift */; };
+		019F996729247B89005D74F6 /* StepCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F996529247B89005D74F6 /* StepCount.swift */; };
+		019F9969292488E4005D74F6 /* SwiftUIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F9968292488E4005D74F6 /* SwiftUIC.swift */; };
+		019F996C29248FAB005D74F6 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F996B29248FAB005D74F6 /* TabBarView.swift */; };
+		019F996E29248FFA005D74F6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F996D29248FFA005D74F6 /* HomeView.swift */; };
+		019F99712924AFBE005D74F6 /* MTColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99702924AFBE005D74F6 /* MTColor.swift */; };
+		019F99A12924E950005D74F6 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99A02924E950005D74F6 /* Landmark.swift */; };
+		019F99A42924E9A0005D74F6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99A32924E9A0005D74F6 /* Data.swift */; };
+		019F99A62924E9C0005D74F6 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99A52924E9C0005D74F6 /* Hike.swift */; };
+		019F99A82925CCB6005D74F6 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99A72925CCB6005D74F6 /* UserData.swift */; };
+		019F99AA2925CDD4005D74F6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99A92925CDD4005D74F6 /* Home.swift */; };
+		019F99BA2925D085005D74F6 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99AC2925D085005D74F6 /* charleyrivers.jpg */; };
+		019F99BB2925D085005D74F6 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99AD2925D085005D74F6 /* turtlerock.jpg */; };
+		019F99BC2925D085005D74F6 /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99AE2925D085005D74F6 /* silversalmoncreek.jpg */; };
+		019F99BD2925D085005D74F6 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 019F99AF2925D085005D74F6 /* hikeData.json */; };
+		019F99BE2925D085005D74F6 /* icybay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99B02925D085005D74F6 /* icybay.jpg */; };
+		019F99BF2925D085005D74F6 /* lakemcdonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99B12925D085005D74F6 /* lakemcdonald.jpg */; };
+		019F99C02925D085005D74F6 /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99B22925D085005D74F6 /* hiddenlake.jpg */; };
+		019F99C12925D085005D74F6 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99B32925D085005D74F6 /* twinlake.jpg */; };
+		019F99C22925D085005D74F6 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99B42925D085005D74F6 /* umbagog.jpg */; };
+		019F99C32925D085005D74F6 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 019F99B52925D085005D74F6 /* landmarkData.json */; };
+		019F99C42925D085005D74F6 /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99B62925D085005D74F6 /* chincoteague.jpg */; };
+		019F99C52925D085005D74F6 /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99B72925D085005D74F6 /* stmarylake.jpg */; };
+		019F99C62925D085005D74F6 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99B82925D085005D74F6 /* chilkoottrail.jpg */; };
+		019F99C72925D085005D74F6 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019F99B92925D085005D74F6 /* rainbowlake.jpg */; };
+		019F99C92925D6F7005D74F6 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99C82925D6F7005D74F6 /* CategoryRow.swift */; };
+		019F99CB2925FAC2005D74F6 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99CA2925FAC2005D74F6 /* LandmarkDetail.swift */; };
+		019F99CD2925FB49005D74F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99CC2925FB49005D74F6 /* MapView.swift */; };
+		019F99CF2925FBD6005D74F6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99CE2925FBD6005D74F6 /* CircleImage.swift */; };
+		019F99D12925FEB1005D74F6 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99D02925FEB1005D74F6 /* LandmarkList.swift */; };
+		019F99D529260419005D74F6 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99D429260419005D74F6 /* HexagonParameters.swift */; };
+		019F99D7292604AC005D74F6 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99D6292604AC005D74F6 /* Badge.swift */; };
+		019F99D929260509005D74F6 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99D829260509005D74F6 /* RotatedBadgeSymbol.swift */; };
+		019F99DB2926051E005D74F6 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99DA2926051E005D74F6 /* BadgeSymbol.swift */; };
+		019F99DD292605E6005D74F6 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99DC292605E6005D74F6 /* BadgeBackground.swift */; };
+		019F99EC29263355005D74F6 /* CustomContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99EB29263355005D74F6 /* CustomContentView.swift */; };
+		019F99EE292634CD005D74F6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99ED292634CD005D74F6 /* ListView.swift */; };
+		019F99F3292635B6005D74F6 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99F2292635B6005D74F6 /* ListItemView.swift */; };
+		019F99F5292635EA005D74F6 /* ListItemHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 019F99F4292635EA005D74F6 /* ListItemHeader.png */; };
+		019F99F829263874005D74F6 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99F729263874005D74F6 /* NewsView.swift */; };
+		019F99FA29263901005D74F6 /* ListTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F99F929263901005D74F6 /* ListTextView.swift */; };
 		01A5D9FF28F4FB1200669676 /* MTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5D9FE28F4FB1200669676 /* MTNavigationController.m */; };
 		01A5DA0328F4FF1B00669676 /* MTScanC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5DA0228F4FF1B00669676 /* MTScanC.m */; };
 		01A5DA0728F5011400669676 /* MTFilterC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5DA0628F5011400669676 /* MTFilterC.m */; };
@@ -107,6 +165,7 @@
 		01A6E5B528F4F60600A8DE17 /* MTBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E5B428F4F60600A8DE17 /* MTBlurView.m */; };
 		01A6E5B828F4F6C300A8DE17 /* UIImage+MTCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E5B728F4F6C300A8DE17 /* UIImage+MTCommon.m */; };
 		01A6E5BB28F4F70400A8DE17 /* UIColor+MTCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E5BA28F4F70400A8DE17 /* UIColor+MTCommon.m */; };
+		01D5558F291CC0C3004C3B50 /* MTGroupC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D5558E291CC0C3004C3B50 /* MTGroupC.m */; };
 		01D95449290B6E70003B55EB /* MTCoreTextC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D95448290B6E70003B55EB /* MTCoreTextC.m */; };
 		01D9D9AA290A6FD700601475 /* MTExcelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D9D9A7290A6FD700601475 /* MTExcelManager.m */; };
 		01D9D9AB290A6FD700601475 /* MTExcelStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D9D9A8290A6FD700601475 /* MTExcelStyleModel.m */; };
@@ -130,6 +189,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0102D167291BAA770028F207 /* MTWebRTCC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTWebRTCC.h; sourceTree = "<group>"; };
+		0102D168291BAA770028F207 /* MTWebRTCC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTWebRTCC.m; sourceTree = "<group>"; };
+		0102D16A291BAAE70028F207 /* MTSignalingClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTSignalingClient.h; sourceTree = "<group>"; };
+		0102D16B291BAAE70028F207 /* MTSignalingClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTSignalingClient.m; sourceTree = "<group>"; };
+		0102D170291C90B80028F207 /* MTWebRTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTWebRTC.h; sourceTree = "<group>"; };
+		0102D171291C90B80028F207 /* MTWebRTC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTWebRTC.m; sourceTree = "<group>"; };
+		0102D173291C9B380028F207 /* MTGroupWebRTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGroupWebRTC.h; sourceTree = "<group>"; };
+		0102D174291C9B380028F207 /* MTGroupWebRTC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGroupWebRTC.m; sourceTree = "<group>"; };
+		010AD953291E322800560786 /* MTContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTContentCell.h; sourceTree = "<group>"; };
+		010AD954291E322800560786 /* MTContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTContentCell.m; sourceTree = "<group>"; };
+		010AD956291E426400560786 /* MTImagesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTImagesCell.h; sourceTree = "<group>"; };
+		010AD957291E426400560786 /* MTImagesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTImagesCell.m; sourceTree = "<group>"; };
+		010AD959291E428C00560786 /* MTImagesCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTImagesCellModel.h; sourceTree = "<group>"; };
+		010AD95A291E428C00560786 /* MTImagesCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTImagesCellModel.m; sourceTree = "<group>"; };
+		010AD95C291E434A00560786 /* NSArray+MTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MTExtension.h"; sourceTree = "<group>"; };
+		010AD95D291E434A00560786 /* NSArray+MTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MTExtension.m"; sourceTree = "<group>"; };
 		0130798328F7E6DF00AE82F7 /* MTVideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTVideoEncoder.h; sourceTree = "<group>"; };
 		0130798428F7E6DF00AE82F7 /* MTVideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTVideoEncoder.m; sourceTree = "<group>"; };
 		0130798728F7E74B00AE82F7 /* MTFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFrame.h; sourceTree = "<group>"; };
@@ -204,6 +279,23 @@
 		017C87C72912001100A7EFF4 /* MTSocketC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTSocketC.m; sourceTree = "<group>"; };
 		017C88922913A65D00A7EFF4 /* MTCalculatorC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCalculatorC.h; sourceTree = "<group>"; };
 		017C88932913A65D00A7EFF4 /* MTCalculatorC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCalculatorC.m; sourceTree = "<group>"; };
+		017C88A72914E0E900A7EFF4 /* VideoEncodeSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEncodeSpec.h; sourceTree = "<group>"; };
+		017C88A82914E0E900A7EFF4 /* VideoEncodeSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEncodeSpec.m; sourceTree = "<group>"; };
+		017FF618291CD86900A9488B /* MTC2CWebRTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTC2CWebRTC.h; sourceTree = "<group>"; };
+		017FF619291CD86900A9488B /* MTC2CWebRTC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTC2CWebRTC.m; sourceTree = "<group>"; };
+		017FF620291CE1A700A9488B /* MTChatC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTChatC.m; sourceTree = "<group>"; };
+		017FF621291CE1A700A9488B /* MTChatC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTChatC.h; sourceTree = "<group>"; };
+		017FF658291E1B6000A9488B /* MTIGListKitC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTIGListKitC.h; sourceTree = "<group>"; };
+		017FF659291E1B6000A9488B /* MTIGListKitC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTIGListKitC.m; sourceTree = "<group>"; };
+		017FF65B291E1D4B00A9488B /* ListData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ListData.json; sourceTree = "<group>"; };
+		017FF65D291E1E2600A9488B /* MTFeedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFeedModel.h; sourceTree = "<group>"; };
+		017FF65E291E1E2600A9488B /* MTFeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFeedModel.m; sourceTree = "<group>"; };
+		017FF660291E1FC700A9488B /* MTFeedSectionC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFeedSectionC.h; sourceTree = "<group>"; };
+		017FF661291E1FC700A9488B /* MTFeedSectionC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFeedSectionC.m; sourceTree = "<group>"; };
+		017FF664291E237700A9488B /* MTUserInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTUserInfoCell.h; sourceTree = "<group>"; };
+		017FF665291E237700A9488B /* MTUserInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTUserInfoCell.m; sourceTree = "<group>"; };
+		017FF668291E23A300A9488B /* MTUserInfoCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTUserInfoCellModel.h; sourceTree = "<group>"; };
+		017FF669291E23A300A9488B /* MTUserInfoCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTUserInfoCellModel.m; sourceTree = "<group>"; };
 		0187EEED2908C27C009049C1 /* MTAccelerometerC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAccelerometerC.h; sourceTree = "<group>"; };
 		0187EEEE2908C27C009049C1 /* MTAccelerometerC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAccelerometerC.m; sourceTree = "<group>"; };
 		0187EEF02908C2B3009049C1 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
@@ -226,6 +318,48 @@
 		0187EF1829090DFB009049C1 /* MyHeartWillGoOn.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyHeartWillGoOn.mp4; sourceTree = "<group>"; };
 		0187EF1E29091D62009049C1 /* MTPanoramicPlayerC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPanoramicPlayerC.h; sourceTree = "<group>"; };
 		0187EF1F29091D62009049C1 /* MTPanoramicPlayerC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPanoramicPlayerC.m; sourceTree = "<group>"; };
+		019F996329247B89005D74F6 /* Tips-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tips-Bridging-Header.h"; sourceTree = "<group>"; };
+		019F996429247B89005D74F6 /* LineChart1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart1.swift; sourceTree = "<group>"; };
+		019F996529247B89005D74F6 /* StepCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepCount.swift; sourceTree = "<group>"; };
+		019F9968292488E4005D74F6 /* SwiftUIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIC.swift; sourceTree = "<group>"; };
+		019F996B29248FAB005D74F6 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		019F996D29248FFA005D74F6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		019F99702924AFBE005D74F6 /* MTColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTColor.swift; sourceTree = "<group>"; };
+		019F99A02924E950005D74F6 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		019F99A32924E9A0005D74F6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		019F99A52924E9C0005D74F6 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		019F99A72925CCB6005D74F6 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		019F99A92925CDD4005D74F6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		019F99AC2925D085005D74F6 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		019F99AD2925D085005D74F6 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
+		019F99AE2925D085005D74F6 /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
+		019F99AF2925D085005D74F6 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		019F99B02925D085005D74F6 /* icybay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icybay.jpg; sourceTree = "<group>"; };
+		019F99B12925D085005D74F6 /* lakemcdonald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakemcdonald.jpg; sourceTree = "<group>"; };
+		019F99B22925D085005D74F6 /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
+		019F99B32925D085005D74F6 /* twinlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twinlake.jpg; sourceTree = "<group>"; };
+		019F99B42925D085005D74F6 /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
+		019F99B52925D085005D74F6 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		019F99B62925D085005D74F6 /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
+		019F99B72925D085005D74F6 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
+		019F99B82925D085005D74F6 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
+		019F99B92925D085005D74F6 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		019F99C82925D6F7005D74F6 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		019F99CA2925FAC2005D74F6 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		019F99CC2925FB49005D74F6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		019F99CE2925FBD6005D74F6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		019F99D02925FEB1005D74F6 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		019F99D429260419005D74F6 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		019F99D6292604AC005D74F6 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		019F99D829260509005D74F6 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		019F99DA2926051E005D74F6 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		019F99DC292605E6005D74F6 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		019F99EB29263355005D74F6 /* CustomContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContentView.swift; sourceTree = "<group>"; };
+		019F99ED292634CD005D74F6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		019F99F2292635B6005D74F6 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		019F99F4292635EA005D74F6 /* ListItemHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListItemHeader.png; sourceTree = "<group>"; };
+		019F99F729263874005D74F6 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		019F99F929263901005D74F6 /* ListTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTextView.swift; sourceTree = "<group>"; };
 		01A5D9FC28F4F84700669676 /* MTToolMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTToolMacro.h; sourceTree = "<group>"; };
 		01A5D9FD28F4FB1200669676 /* MTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTNavigationController.h; sourceTree = "<group>"; };
 		01A5D9FE28F4FB1200669676 /* MTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTNavigationController.m; sourceTree = "<group>"; };
@@ -328,6 +462,8 @@
 		01A6E5B728F4F6C300A8DE17 /* UIImage+MTCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MTCommon.m"; sourceTree = "<group>"; };
 		01A6E5B928F4F70400A8DE17 /* UIColor+MTCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MTCommon.h"; sourceTree = "<group>"; };
 		01A6E5BA28F4F70400A8DE17 /* UIColor+MTCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MTCommon.m"; sourceTree = "<group>"; };
+		01D5558D291CC0C3004C3B50 /* MTGroupC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGroupC.h; sourceTree = "<group>"; };
+		01D5558E291CC0C3004C3B50 /* MTGroupC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGroupC.m; sourceTree = "<group>"; };
 		01D95447290B6E70003B55EB /* MTCoreTextC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCoreTextC.h; sourceTree = "<group>"; };
 		01D95448290B6E70003B55EB /* MTCoreTextC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCoreTextC.m; sourceTree = "<group>"; };
 		01D9D9A6290A6FD700601475 /* MTExcelStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTExcelStyleModel.h; sourceTree = "<group>"; };
@@ -383,6 +519,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0102D166291BAA620028F207 /* WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				0102D167291BAA770028F207 /* MTWebRTCC.h */,
+				0102D168291BAA770028F207 /* MTWebRTCC.m */,
+				0102D170291C90B80028F207 /* MTWebRTC.h */,
+				0102D171291C90B80028F207 /* MTWebRTC.m */,
+				017FF614291CD83800A9488B /* C2C */,
+				017FF613291CD83000A9488B /* Group */,
+				0102D16A291BAAE70028F207 /* MTSignalingClient.h */,
+				0102D16B291BAAE70028F207 /* MTSignalingClient.m */,
+			);
+			path = WebRTC;
+			sourceTree = "<group>";
+		};
 		0130798228F7E6AC00AE82F7 /* Encode */ = {
 			isa = PBXGroup;
 			children = (
@@ -539,6 +690,77 @@
 			path = Cal;
 			sourceTree = "<group>";
 		};
+		017C88A62914E0D600A7EFF4 /* SoftEncode */ = {
+			isa = PBXGroup;
+			children = (
+				017C88A72914E0E900A7EFF4 /* VideoEncodeSpec.h */,
+				017C88A82914E0E900A7EFF4 /* VideoEncodeSpec.m */,
+			);
+			path = SoftEncode;
+			sourceTree = "<group>";
+		};
+		017FF613291CD83000A9488B /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				01D5558D291CC0C3004C3B50 /* MTGroupC.h */,
+				01D5558E291CC0C3004C3B50 /* MTGroupC.m */,
+				0102D173291C9B380028F207 /* MTGroupWebRTC.h */,
+				0102D174291C9B380028F207 /* MTGroupWebRTC.m */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		017FF614291CD83800A9488B /* C2C */ = {
+			isa = PBXGroup;
+			children = (
+				017FF618291CD86900A9488B /* MTC2CWebRTC.h */,
+				017FF619291CD86900A9488B /* MTC2CWebRTC.m */,
+				017FF621291CE1A700A9488B /* MTChatC.h */,
+				017FF620291CE1A700A9488B /* MTChatC.m */,
+			);
+			path = C2C;
+			sourceTree = "<group>";
+		};
+		017FF657291E1B4600A9488B /* IGListKit */ = {
+			isa = PBXGroup;
+			children = (
+				017FF667291E238C00A9488B /* Model */,
+				017FF663291E236200A9488B /* View */,
+				017FF65B291E1D4B00A9488B /* ListData.json */,
+				017FF658291E1B6000A9488B /* MTIGListKitC.h */,
+				017FF659291E1B6000A9488B /* MTIGListKitC.m */,
+				017FF660291E1FC700A9488B /* MTFeedSectionC.h */,
+				017FF661291E1FC700A9488B /* MTFeedSectionC.m */,
+			);
+			path = IGListKit;
+			sourceTree = "<group>";
+		};
+		017FF663291E236200A9488B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				017FF664291E237700A9488B /* MTUserInfoCell.h */,
+				017FF665291E237700A9488B /* MTUserInfoCell.m */,
+				010AD953291E322800560786 /* MTContentCell.h */,
+				010AD954291E322800560786 /* MTContentCell.m */,
+				010AD956291E426400560786 /* MTImagesCell.h */,
+				010AD957291E426400560786 /* MTImagesCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		017FF667291E238C00A9488B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				017FF65D291E1E2600A9488B /* MTFeedModel.h */,
+				017FF65E291E1E2600A9488B /* MTFeedModel.m */,
+				017FF668291E23A300A9488B /* MTUserInfoCellModel.h */,
+				017FF669291E23A300A9488B /* MTUserInfoCellModel.m */,
+				010AD959291E428C00560786 /* MTImagesCellModel.h */,
+				010AD95A291E428C00560786 /* MTImagesCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0187EEEC2908C259009049C1 /* Accelerometer */ = {
 			isa = PBXGroup;
 			children = (
@@ -597,6 +819,126 @@
 				0187EF1F29091D62009049C1 /* MTPanoramicPlayerC.m */,
 			);
 			path = PanoramicPlayer;
+			sourceTree = "<group>";
+		};
+		019F996229247B71005D74F6 /* SwiftUICharts */ = {
+			isa = PBXGroup;
+			children = (
+				019F996429247B89005D74F6 /* LineChart1.swift */,
+				019F996529247B89005D74F6 /* StepCount.swift */,
+			);
+			path = SwiftUICharts;
+			sourceTree = "<group>";
+		};
+		019F996A29248DE8005D74F6 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				019F99F629263862005D74F6 /* Bytes */,
+				019F99EA29263348005D74F6 /* CustomDemo */,
+				019F99A22924E956005D74F6 /* Demo */,
+				019F996F2924AFAD005D74F6 /* extension */,
+				019F9968292488E4005D74F6 /* SwiftUIC.swift */,
+				019F996229247B71005D74F6 /* SwiftUICharts */,
+				019F996B29248FAB005D74F6 /* TabBarView.swift */,
+				019F996D29248FFA005D74F6 /* HomeView.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		019F996F2924AFAD005D74F6 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				019F99702924AFBE005D74F6 /* MTColor.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		019F99A22924E956005D74F6 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				019F99D32926040A005D74F6 /* 风景 */,
+				019F99D229260404005D74F6 /* 图案 */,
+				019F99AB2925D085005D74F6 /* Resources */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		019F99AB2925D085005D74F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				019F99AC2925D085005D74F6 /* charleyrivers.jpg */,
+				019F99B82925D085005D74F6 /* chilkoottrail.jpg */,
+				019F99B62925D085005D74F6 /* chincoteague.jpg */,
+				019F99B22925D085005D74F6 /* hiddenlake.jpg */,
+				019F99B02925D085005D74F6 /* icybay.jpg */,
+				019F99B12925D085005D74F6 /* lakemcdonald.jpg */,
+				019F99B92925D085005D74F6 /* rainbowlake.jpg */,
+				019F99AE2925D085005D74F6 /* silversalmoncreek.jpg */,
+				019F99B72925D085005D74F6 /* stmarylake.jpg */,
+				019F99AD2925D085005D74F6 /* turtlerock.jpg */,
+				019F99B32925D085005D74F6 /* twinlake.jpg */,
+				019F99B42925D085005D74F6 /* umbagog.jpg */,
+				019F99AF2925D085005D74F6 /* hikeData.json */,
+				019F99B52925D085005D74F6 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		019F99D229260404005D74F6 /* 图案 */ = {
+			isa = PBXGroup;
+			children = (
+				019F99D429260419005D74F6 /* HexagonParameters.swift */,
+				019F99D6292604AC005D74F6 /* Badge.swift */,
+				019F99D829260509005D74F6 /* RotatedBadgeSymbol.swift */,
+				019F99DA2926051E005D74F6 /* BadgeSymbol.swift */,
+				019F99DC292605E6005D74F6 /* BadgeBackground.swift */,
+			);
+			path = "图案";
+			sourceTree = "<group>";
+		};
+		019F99D32926040A005D74F6 /* 风景 */ = {
+			isa = PBXGroup;
+			children = (
+				019F99A02924E950005D74F6 /* Landmark.swift */,
+				019F99A32924E9A0005D74F6 /* Data.swift */,
+				019F99A52924E9C0005D74F6 /* Hike.swift */,
+				019F99A72925CCB6005D74F6 /* UserData.swift */,
+				019F99A92925CDD4005D74F6 /* Home.swift */,
+				019F99C82925D6F7005D74F6 /* CategoryRow.swift */,
+				019F99CA2925FAC2005D74F6 /* LandmarkDetail.swift */,
+				019F99CC2925FB49005D74F6 /* MapView.swift */,
+				019F99CE2925FBD6005D74F6 /* CircleImage.swift */,
+				019F99D02925FEB1005D74F6 /* LandmarkList.swift */,
+			);
+			path = "风景";
+			sourceTree = "<group>";
+		};
+		019F99EA29263348005D74F6 /* CustomDemo */ = {
+			isa = PBXGroup;
+			children = (
+				019F99EF2926359E005D74F6 /* ListView */,
+				019F99EB29263355005D74F6 /* CustomContentView.swift */,
+			);
+			path = CustomDemo;
+			sourceTree = "<group>";
+		};
+		019F99EF2926359E005D74F6 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				019F99ED292634CD005D74F6 /* ListView.swift */,
+				019F99F4292635EA005D74F6 /* ListItemHeader.png */,
+				019F99F2292635B6005D74F6 /* ListItemView.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		019F99F629263862005D74F6 /* Bytes */ = {
+			isa = PBXGroup;
+			children = (
+				019F99F729263874005D74F6 /* NewsView.swift */,
+				019F99F929263901005D74F6 /* ListTextView.swift */,
+			);
+			path = Bytes;
 			sourceTree = "<group>";
 		};
 		01A5DA0028F4FF0300669676 /* ScanTool */ = {
@@ -726,6 +1068,9 @@
 		01A6E58228F41D3C00A8DE17 /* Tips */ = {
 			isa = PBXGroup;
 			children = (
+				019F996A29248DE8005D74F6 /* Swift */,
+				017FF657291E1B4600A9488B /* IGListKit */,
+				0102D166291BAA620028F207 /* WebRTC */,
 				0187EF002908D4CE009049C1 /* Media */,
 				01718ED72907C44C00FF38C3 /* Sensor */,
 				013079C228F8F83B00AE82F7 /* WKWebView */,
@@ -794,6 +1139,8 @@
 				01718EEB2907D31400FF38C3 /* UIImageView+Tranform3D.m */,
 				0187EEFD2908C775009049C1 /* UIDevice+StateHeight.h */,
 				0187EEFE2908C775009049C1 /* UIDevice+StateHeight.m */,
+				010AD95C291E434A00560786 /* NSArray+MTExtension.h */,
+				010AD95D291E434A00560786 /* NSArray+MTExtension.m */,
 			);
 			path = MTCategory;
 			sourceTree = "<group>";
@@ -930,6 +1277,8 @@
 		01E842C328F691AA00F9012D /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				019F996329247B89005D74F6 /* Tips-Bridging-Header.h */,
+				017C88A62914E0D600A7EFF4 /* SoftEncode */,
 				017C88912913A62C00A7EFF4 /* Cal */,
 				017C87C52911FFFB00A7EFF4 /* Socket */,
 				01D95446290B6E5F003B55EB /* CoreText */,
@@ -1031,6 +1380,7 @@
 				01A6E57D28F41D3C00A8DE17 /* Frameworks */,
 				01A6E57E28F41D3C00A8DE17 /* Resources */,
 				0D2F40FDB0CBA521C9DFFDBF /* [CP] Copy Pods Resources */,
+				DF2DDF189EC722B15A5E7032 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1052,6 +1402,7 @@
 				TargetAttributes = {
 					01A6E57F28F41D3C00A8DE17 = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1410;
 					};
 				};
 			};
@@ -1078,15 +1429,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019F99BB2925D085005D74F6 /* turtlerock.jpg in Resources */,
+				019F99C62925D085005D74F6 /* chilkoottrail.jpg in Resources */,
+				017FF65C291E1D4B00A9488B /* ListData.json in Resources */,
+				019F99C32925D085005D74F6 /* landmarkData.json in Resources */,
+				019F99C52925D085005D74F6 /* stmarylake.jpg in Resources */,
 				01A6E59328F41D3D00A8DE17 /* LaunchScreen.storyboard in Resources */,
 				01A6E58E28F41D3C00A8DE17 /* Main.storyboard in Resources */,
+				019F99C22925D085005D74F6 /* umbagog.jpg in Resources */,
+				019F99BD2925D085005D74F6 /* hikeData.json in Resources */,
+				019F99C12925D085005D74F6 /* twinlake.jpg in Resources */,
+				019F99BA2925D085005D74F6 /* charleyrivers.jpg in Resources */,
 				01E842BF28F68DA000F9012D /* Assets.xcassets in Resources */,
 				01D9D9B0290A761100601475 /* quanjingpic.png in Resources */,
 				0187EF0C2908FE12009049C1 /* demo.mp4 in Resources */,
 				0187EF1929090DFB009049C1 /* MyHeartWillGoOn.mp4 in Resources */,
+				019F99BE2925D085005D74F6 /* icybay.jpg in Resources */,
+				019F99C72925D085005D74F6 /* rainbowlake.jpg in Resources */,
 				0187EEF32908C2B3009049C1 /* eyes.png in Resources */,
 				01718F012907E1DC00FF38C3 /* qiaoba.jpeg in Resources */,
+				019F99BC2925D085005D74F6 /* silversalmoncreek.jpg in Resources */,
+				019F99F5292635EA005D74F6 /* ListItemHeader.png in Resources */,
+				019F99BF2925D085005D74F6 /* lakemcdonald.jpg in Resources */,
+				019F99C42925D085005D74F6 /* chincoteague.jpg in Resources */,
 				01A5DA1528F5037300669676 /* Resources.bundle in Resources */,
+				019F99C02925D085005D74F6 /* hiddenlake.jpg in Resources */,
 				0187EEF22908C2B3009049C1 /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1133,6 +1500,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DF2DDF189EC722B15A5E7032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tips/Pods-Tips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tips/Pods-Tips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tips/Pods-Tips-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1143,9 +1527,12 @@
 				01A5DA5428F5339400669676 /* MTMosaicV.m in Sources */,
 				01A5DA7828F55E3600669676 /* MTViewController.m in Sources */,
 				0177B47F28F6CD11000873CD /* MTSystemCapture.m in Sources */,
+				019F99A62924E9C0005D74F6 /* Hike.swift in Sources */,
 				01A5DA2D28F5107F00669676 /* MTShotFocusV.m in Sources */,
 				01A5DA0728F5011400669676 /* MTFilterC.m in Sources */,
+				010AD95B291E428C00560786 /* MTImagesCellModel.m in Sources */,
 				0177B49028F7DD2F000873CD /* MTLiveVideoConfiguration.m in Sources */,
+				017FF622291CE1A700A9488B /* MTChatC.m in Sources */,
 				01A6E58B28F41D3C00A8DE17 /* ViewController.m in Sources */,
 				0177B3C028F6A42E000873CD /* MTProxy.m in Sources */,
 				01A6E5A028F41D8100A8DE17 /* MTFaceDetectC.m in Sources */,
@@ -1154,43 +1541,64 @@
 				01A5DA5D28F535BA00669676 /* MTDelayPerform.m in Sources */,
 				01A6E5B528F4F60600A8DE17 /* MTBlurView.m in Sources */,
 				0187EEF62908C303009049C1 /* MTBezierPathV.m in Sources */,
+				019F99CF2925FBD6005D74F6 /* CircleImage.swift in Sources */,
 				0177B48628F7D7D7000873CD /* MTLiveAudioConfiguration.m in Sources */,
 				01A6E58528F41D3C00A8DE17 /* AppDelegate.m in Sources */,
 				01718EF02907D3EB00FF38C3 /* MTDistanceC.m in Sources */,
 				0130798528F7E6DF00AE82F7 /* MTVideoEncoder.m in Sources */,
 				01D9D9AE290A6FEF00601475 /* MTExcelVC.m in Sources */,
+				019F99AA2925CDD4005D74F6 /* Home.swift in Sources */,
 				01A5DA6328F53F5C00669676 /* MTGridV.m in Sources */,
 				01718EEC2907D31400FF38C3 /* UIImageView+Tranform3D.m in Sources */,
 				0187EF132908FEB9009049C1 /* MTVideoSpeedC.m in Sources */,
 				01A5DA2828F50FF000669676 /* MTAVEditExport.m in Sources */,
 				01A6E59628F41D3D00A8DE17 /* main.m in Sources */,
+				0102D16C291BAAE70028F207 /* MTSignalingClient.m in Sources */,
 				01A5DA4B28F5192000669676 /* MTDrawV.m in Sources */,
+				01D5558F291CC0C3004C3B50 /* MTGroupC.m in Sources */,
+				010AD95E291E434A00560786 /* NSArray+MTExtension.m in Sources */,
+				019F99712924AFBE005D74F6 /* MTColor.swift in Sources */,
 				013079C828F8FDCE00AE82F7 /* WKWebView+MTExtension.m in Sources */,
+				017FF65A291E1B6000A9488B /* MTIGListKitC.m in Sources */,
 				0187EEFC2908C411009049C1 /* MTBallTool.m in Sources */,
 				01A5DA0328F4FF1B00669676 /* MTScanC.m in Sources */,
+				017FF65F291E1E2600A9488B /* MTFeedModel.m in Sources */,
+				019F99D529260419005D74F6 /* HexagonParameters.swift in Sources */,
 				01A5DA3328F5115300669676 /* UIView+MTImage.m in Sources */,
 				0130798928F7E74B00AE82F7 /* MTFrame.m in Sources */,
 				01A5DA4E28F519AA00669676 /* MTEditTextV.m in Sources */,
+				019F99DD292605E6005D74F6 /* BadgeBackground.swift in Sources */,
 				0130798F28F7E7BC00AE82F7 /* MTVideoFrame.m in Sources */,
+				019F99C92925D6F7005D74F6 /* CategoryRow.swift in Sources */,
 				01A5DA1228F5029400669676 /* MTLoadImageC.m in Sources */,
 				01A6E5AD28F4272700A8DE17 /* MTColorPickerC.m in Sources */,
 				01D9D9AB290A6FD700601475 /* MTExcelStyleModel.m in Sources */,
 				01ED761D28FD517400132A08 /* MTPasteC.m in Sources */,
 				01A5DA5728F5348300669676 /* MTImageZoomV.m in Sources */,
+				019F99CB2925FAC2005D74F6 /* LandmarkDetail.swift in Sources */,
+				017FF662291E1FC700A9488B /* MTFeedSectionC.m in Sources */,
 				01A6E5B828F4F6C300A8DE17 /* UIImage+MTCommon.m in Sources */,
 				01ED762028FD540F00132A08 /* MTPasteBoardUtils.m in Sources */,
+				017FF66A291E23A300A9488B /* MTUserInfoCellModel.m in Sources */,
 				01A5DA1F28F509DF00669676 /* MTAVCaptureTool.m in Sources */,
 				0177B3CD28F6A78F000873CD /* MTAPMLoadTime.m in Sources */,
+				019F99CD2925FB49005D74F6 /* MapView.swift in Sources */,
+				019F99EE292634CD005D74F6 /* ListView.swift in Sources */,
+				019F996C29248FAB005D74F6 /* TabBarView.swift in Sources */,
 				01E842D528F69CD700F9012D /* MTSystemAppInfo.m in Sources */,
+				019F99D12925FEB1005D74F6 /* LandmarkList.swift in Sources */,
 				01E842CD28F692C200F9012D /* MTResourceInfo.m in Sources */,
 				01E842BD28F68B9700F9012D /* MTGPUImageC.m in Sources */,
 				01A6E5BB28F4F70400A8DE17 /* UIColor+MTCommon.m in Sources */,
 				0177B3C328F6A54F000873CD /* MTAPMThreadCount.m in Sources */,
+				019F996729247B89005D74F6 /* StepCount.swift in Sources */,
 				01A6E5B128F4275C00A8DE17 /* MTAVCaptureSession.m in Sources */,
 				0177B3CA28F6A6BA000873CD /* UIViewController+MTAPMVCTime.m in Sources */,
 				0187EEF92908C378009049C1 /* MTBallV.m in Sources */,
+				019F99F3292635B6005D74F6 /* ListItemView.swift in Sources */,
 				01A5DA6028F538AA00669676 /* MTAlertView.m in Sources */,
 				01A5DA2528F50BBE00669676 /* MTAVPlayer.m in Sources */,
+				019F99D7292604AC005D74F6 /* Badge.swift in Sources */,
 				01E842CA28F6923E00F9012D /* MTUnusedResourceC.m in Sources */,
 				2290FA1A2914F869009EBBCD /* MTMixAudio.m in Sources */,
 				0187EEFF2908C775009049C1 /* UIDevice+StateHeight.m in Sources */,
@@ -1199,6 +1607,7 @@
 				01A5DA6628F5423C00669676 /* MTMethod.m in Sources */,
 				0177B48928F7D980000873CD /* MTAudioCapture.m in Sources */,
 				013079CB28F9046000AE82F7 /* MTUrlProtocolAddCookie.m in Sources */,
+				019F99F829263874005D74F6 /* NewsView.swift in Sources */,
 				01A6E58828F41D3C00A8DE17 /* SceneDelegate.m in Sources */,
 				0130798C28F7E7B100AE82F7 /* MTAudioFrame.m in Sources */,
 				01A5DA3028F510E000669676 /* MTEditVideoC.m in Sources */,
@@ -1206,30 +1615,44 @@
 				01718EF82907D8F500FF38C3 /* MTCompassC.m in Sources */,
 				01A5DA3928F512B400669676 /* MTEditSelectedBox.m in Sources */,
 				01ED762428FD562600132A08 /* OptsUtils.m in Sources */,
+				010AD955291E322800560786 /* MTContentCell.m in Sources */,
 				01A5DA4528F515CF00669676 /* MTImage.m in Sources */,
+				019F996629247B89005D74F6 /* LineChart1.swift in Sources */,
 				01A5DA8128F56B8D00669676 /* MTScanResultC.m in Sources */,
 				0177B3BA28F6A31D000873CD /* MTAPMMemoryDisk.m in Sources */,
 				01A5DA5128F51A3E00669676 /* MTPaddingLabel.m in Sources */,
+				019F99A82925CCB6005D74F6 /* UserData.swift in Sources */,
 				01718EFF2907E16F00FF38C3 /* MTGyroscopeC.m in Sources */,
 				01E842B928F6664100F9012D /* MTAudioEncoder.m in Sources */,
 				0177B48D28F7DCC9000873CD /* MTVideoCapture.m in Sources */,
 				0177B3B728F6A2A8000873CD /* BSBacktraceLogger.m in Sources */,
 				01718EE02907C4D600FF38C3 /* MTFaceFingerC.m in Sources */,
+				019F9969292488E4005D74F6 /* SwiftUIC.swift in Sources */,
 				01A5DA7528F5575700669676 /* MTScanV.m in Sources */,
+				0102D172291C90B80028F207 /* MTWebRTC.m in Sources */,
+				019F99DB2926051E005D74F6 /* BadgeSymbol.swift in Sources */,
+				019F99D929260509005D74F6 /* RotatedBadgeSymbol.swift in Sources */,
 				0177B3B228F6A1FE000873CD /* MTAPMCpu.m in Sources */,
 				01718EDD2907C49600FF38C3 /* MTSensorC.m in Sources */,
 				017C87C82912001100A7EFF4 /* MTSocketC.m in Sources */,
 				01A6E5A728F4224600A8DE17 /* UIView+MTFrame.m in Sources */,
+				010AD958291E426400560786 /* MTImagesCell.m in Sources */,
 				013079C528F8F85200AE82F7 /* MTWebViewC.m in Sources */,
 				01A5DA3C28F513A000669676 /* MTEditImageC.m in Sources */,
 				0177B3C628F6A5C2000873CD /* MTAPMURLProtocol.m in Sources */,
 				01D95449290B6E70003B55EB /* MTCoreTextC.m in Sources */,
 				0177B3BD28F6A36E000873CD /* MTAPMFluency.m in Sources */,
+				0102D175291C9B380028F207 /* MTGroupWebRTC.m in Sources */,
 				0187EF2029091D62009049C1 /* MTPanoramicPlayerC.m in Sources */,
+				019F99A42924E9A0005D74F6 /* Data.swift in Sources */,
+				019F996E29248FFA005D74F6 /* HomeView.swift in Sources */,
+				019F99A12924E950005D74F6 /* Landmark.swift in Sources */,
+				017FF61A291CD86900A9488B /* MTC2CWebRTC.m in Sources */,
 				0187EF0F2908FE36009049C1 /* MTMediaC.m in Sources */,
 				01A5DA7228F54F3500669676 /* MTScanTool.m in Sources */,
 				0177B48328F7D7AA000873CD /* MTLiveSession.m in Sources */,
 				01718EFB2907D98A00FF38C3 /* MTScaleView.m in Sources */,
+				019F99FA29263901005D74F6 /* ListTextView.swift in Sources */,
 				01A6E5A328F41E7F00A8DE17 /* MTAVListC.m in Sources */,
 				0187EF1729090D5A009049C1 /* MTMixVideoC.m in Sources */,
 				017C88942913A65D00A7EFF4 /* MTCalculatorC.m in Sources */,
@@ -1237,6 +1660,7 @@
 				01A5DA1C28F5099600669676 /* MTShotC.m in Sources */,
 				01A5DA2228F50A2B00669676 /* MTAVWriteInput.m in Sources */,
 				01A5DA3628F511C400669676 /* MTEditMenuV.m in Sources */,
+				017C88A92914E0E900A7EFF4 /* VideoEncodeSpec.m in Sources */,
 				01A5DA6F28F546C000669676 /* MTEditVideoClipping.m in Sources */,
 				01A5DA4828F5170E00669676 /* MTImageView.m in Sources */,
 				01A5DA6928F544C700669676 /* MTKeyChain.m in Sources */,
@@ -1246,6 +1670,9 @@
 				01718EE82907CF0100FF38C3 /* MTMotionC.m in Sources */,
 				01A5DA0E28F501F600669676 /* MTOpenGLC.m in Sources */,
 				01E842C628F691CC00F9012D /* MTOtherTBVC.m in Sources */,
+				0102D169291BAA770028F207 /* MTWebRTCC.m in Sources */,
+				017FF666291E237700A9488B /* MTUserInfoCell.m in Sources */,
+				019F99EC29263355005D74F6 /* CustomContentView.swift in Sources */,
 				0187EEEF2908C27C009049C1 /* MTAccelerometerC.m in Sources */,
 				01E842C228F68DE000F9012D /* MTWaterMarkC.m in Sources */,
 			);
@@ -1389,12 +1816,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 235UW68632;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Tips/General/MTAnimateImageView",
+					"$(PROJECT_DIR)/Tips/bundle-apple-framework-ios",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Tips/General/Tool/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1419,6 +1848,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcvideo.ArcStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tips/Others/Tips-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1429,12 +1861,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 235UW68632;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Tips/General/MTAnimateImageView",
+					"$(PROJECT_DIR)/Tips/bundle-apple-framework-ios",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Tips/General/Tool/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1459,6 +1893,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcvideo.ArcStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tips/Others/Tips-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -1,28 +1,48 @@
 PODS:
+  - GoogleWebRTC (1.1.31999)
   - GPUImage (0.1.7)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
   - libxlsxwriter (1.1.4)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
+  - MJExtension (3.4.1)
+  - SocketRocket (0.6.0)
 
 DEPENDENCIES:
+  - GoogleWebRTC (~> 1.1.31999)
   - GPUImage
+  - IGListKit (~> 4.0.0)
   - libxlsxwriter (~> 1.1.4)
   - Masonry
   - MBProgressHUD
+  - MJExtension (~> 3.4.1)
+  - SocketRocket (~> 0.6.0)
 
 SPEC REPOS:
   https://gitee.com/mirrors/CocoaPods-Specs.git:
+    - GoogleWebRTC
     - GPUImage
+    - IGListDiffKit
+    - IGListKit
     - libxlsxwriter
     - Masonry
     - MBProgressHUD
+    - MJExtension
+    - SocketRocket
 
 SPEC CHECKSUMS:
+  GoogleWebRTC: b39a78c4f5cc6b0323415b9233db03a2faa7b0f0
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
   libxlsxwriter: f9f040bb01f0aabac1adb09f27c8cf542ae9a044
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
-PODFILE CHECKSUM: de2feb73a396e95930100632e24bf9927ea1dd59
+PODFILE CHECKSUM: 854e8203f285afc2e8573056deafe911aea2360d
 
 COCOAPODS: 1.11.3

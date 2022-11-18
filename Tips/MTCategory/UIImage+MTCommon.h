@@ -20,6 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 //图片缩放，针对大图片处理
 + (UIImage *)mt_scaledImageWithData:(NSData *)data withSize:(CGSize)size scale:(CGFloat)scale orientation:(UIImageOrientation)orientation;
 
+// 根据颜色生成图片
++ (UIImage *)mt_imageWithColor:(UIColor *)color;
++ (UIImage *)mt_imageWithColor:(UIColor *)color size:(CGSize)size;
+
 @end
 
 NS_ASSUME_NONNULL_END

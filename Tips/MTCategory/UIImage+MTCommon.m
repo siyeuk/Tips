@@ -90,5 +90,21 @@
     return image;
 }
 
-
+// 根据颜色生成图片
++ (UIImage *)mt_imageWithColor:(UIColor *)color{
+    return [UIImage mt_imageWithColor:color size:CGSizeMake(1.0f, 1.0f)];
+}
++ (UIImage *)mt_imageWithColor:(UIColor *)color size:(CGSize)size{
+    CGRect rect = CGRectMake(0, 0, size.width, size.height);
+    UIGraphicsBeginImageContext(size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
 @end

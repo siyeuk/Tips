@@ -9,6 +9,7 @@
 #define PrefixHeader_pch
 
 #import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
 
 #import "MTToolMacro.h"
 #import "MTAlertView.h"
@@ -16,6 +17,7 @@
 #import "MTDelayPerform.h"
 
 #import "UIView+MTFrame.h"
+#import "UIImage+MTCommon.h"
 #import "UIDevice+StateHeight.h"
 
 
