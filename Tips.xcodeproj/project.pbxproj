@@ -125,6 +125,7 @@
 		01ED761D28FD517400132A08 /* MTPasteC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ED761C28FD517400132A08 /* MTPasteC.m */; };
 		01ED762028FD540F00132A08 /* MTPasteBoardUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ED761F28FD540F00132A08 /* MTPasteBoardUtils.m */; };
 		01ED762428FD562600132A08 /* OptsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ED762328FD562600132A08 /* OptsUtils.m */; };
+		2290FA1A2914F869009EBBCD /* MTMixAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 2290FA192914F869009EBBCD /* MTMixAudio.m */; };
 		C6D06FA72F0E3755643E6FA5 /* libPods-Tips.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE611D83B3823382030B67DF /* libPods-Tips.a */; };
 /* End PBXBuildFile section */
 
@@ -361,6 +362,8 @@
 		01ED762228FD562600132A08 /* OptsUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptsUtils.h; sourceTree = "<group>"; };
 		01ED762328FD562600132A08 /* OptsUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptsUtils.m; sourceTree = "<group>"; };
 		1C42CFB3AA5F104B354824E2 /* Pods-Tips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tips.debug.xcconfig"; path = "Target Support Files/Pods-Tips/Pods-Tips.debug.xcconfig"; sourceTree = "<group>"; };
+		2290FA182914F869009EBBCD /* MTMixAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMixAudio.h; sourceTree = "<group>"; };
+		2290FA192914F869009EBBCD /* MTMixAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTMixAudio.m; sourceTree = "<group>"; };
 		65FEB4B3AF4ABF8E040C5C14 /* Pods-MT_Tips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MT_Tips.release.xcconfig"; path = "Target Support Files/Pods-MT_Tips/Pods-MT_Tips.release.xcconfig"; sourceTree = "<group>"; };
 		B301414763A6AA1AE3B7931F /* Pods-Tips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tips.release.xcconfig"; path = "Target Support Files/Pods-Tips/Pods-Tips.release.xcconfig"; sourceTree = "<group>"; };
 		BE611D83B3823382030B67DF /* libPods-Tips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tips.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -560,6 +563,8 @@
 				0187EF102908FEA5009049C1 /* VideoSpeed */,
 				0187EF0D2908FE36009049C1 /* MTMediaC.h */,
 				0187EF0E2908FE36009049C1 /* MTMediaC.m */,
+				2290FA182914F869009EBBCD /* MTMixAudio.h */,
+				2290FA192914F869009EBBCD /* MTMixAudio.m */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -1051,7 +1056,7 @@
 				};
 			};
 			buildConfigurationList = 01A6E57B28F41D3C00A8DE17 /* Build configuration list for PBXProject "Tips" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1187,6 +1192,7 @@
 				01A5DA6028F538AA00669676 /* MTAlertView.m in Sources */,
 				01A5DA2528F50BBE00669676 /* MTAVPlayer.m in Sources */,
 				01E842CA28F6923E00F9012D /* MTUnusedResourceC.m in Sources */,
+				2290FA1A2914F869009EBBCD /* MTMixAudio.m in Sources */,
 				0187EEFF2908C775009049C1 /* UIDevice+StateHeight.m in Sources */,
 				01A5D9FF28F4FB1200669676 /* MTNavigationController.m in Sources */,
 				01A5DA5A28F5351000669676 /* MTImageClipC.m in Sources */,

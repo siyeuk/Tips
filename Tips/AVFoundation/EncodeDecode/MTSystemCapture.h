@@ -25,6 +25,7 @@ typedef NS_ENUM(NSInteger, MTCaptureDeviceInput) {
 @protocol MTSystemCaptureDelegate <NSObject>
 @optional
 - (void)captureSampleBuffer:(CMSampleBufferRef)sampleBuffer;
+- (void)captureAudioSampleBuffer:(CMSampleBufferRef)sampleBuffer;
 
 @end
 

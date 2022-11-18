@@ -8,7 +8,7 @@
 #import "MTSystemCapture.h"
 #import <CoreMotion/CoreMotion.h>
 
-@interface MTSystemCapture ()<AVCaptureVideoDataOutputSampleBufferDelegate>
+@interface MTSystemCapture ()<AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate>
 
 //@property (nonatomic, assign) MTSystemCaptureType           captureType;
 @property (nonatomic, assign) BOOL                          isRecording; //是否正在录制
@@ -208,16 +208,17 @@
 
 #pragma mark - AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate -
 - (void)captureOutput:(AVCaptureOutput *)output didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection{
-//    if (output == self.videoDataOutput) {
+    if (output == self.videoDataOutput) {
         if ([self.delegate respondsToSelector:@selector(captureSampleBuffer:)]) {
             [self.delegate captureSampleBuffer:sampleBuffer];
         }
-//    }else if (output == self.audioDataOutput) {
-//        if ([self.delegate respondsToSelector:@selector(captureSampleBuffer:type:)]) {
-//            [self.delegate captureSampleBuffer:sampleBuffer type:MTSystemCaptureTypeAudio];
-//        }
-//    }
+    }else if (output == self.audioDataOutput) {
+        if ([self.delegate respondsToSelector:@selector(captureAudioSampleBuffer:)]) {
+            [self.delegate captureAudioSampleBuffer:sampleBuffer];
+        }
+    }
 }
+
 
 #pragma mark - helpMethods -
 - (AVCaptureDevice *)getCameraDeviceWithPosition:(AVCaptureDevicePosition)position{
