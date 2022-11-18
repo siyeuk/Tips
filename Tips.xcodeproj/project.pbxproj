@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -1397,7 +1397,6 @@
 		01A6E57828F41D3C00A8DE17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					01A6E57F28F41D3C00A8DE17 = {
@@ -1819,7 +1818,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 235UW68632;
+				DEVELOPMENT_TEAM = 7TU37GKY2A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Tips/General/MTAnimateImageView",
@@ -1828,24 +1827,27 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Tips/General/Tool/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tips/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "面容解锁";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "始终获取位置";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "始终获取位置";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "前台时候获取位置";
 				INFOPLIST_KEY_NSMotionUsageDescription = "运动传感器";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "访问相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.arcvideo.ArcStudio;
+				PRODUCT_BUNDLE_IDENTIFIER = mt.lss.shuai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tips/Others/Tips-Bridging-Header.h";
@@ -1864,7 +1866,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 235UW68632;
+				DEVELOPMENT_TEAM = 7TU37GKY2A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Tips/General/MTAnimateImageView",
@@ -1873,24 +1875,27 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Tips/General/Tool/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tips/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "面容解锁";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "始终获取位置";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "始终获取位置";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "前台时候获取位置";
 				INFOPLIST_KEY_NSMotionUsageDescription = "运动传感器";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "访问相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.arcvideo.ArcStudio;
+				PRODUCT_BUNDLE_IDENTIFIER = mt.lss.shuai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tips/Others/Tips-Bridging-Header.h";
