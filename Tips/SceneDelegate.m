@@ -6,8 +6,11 @@
 //
 
 #import "SceneDelegate.h"
+//#import "MTAVPlayer.h"
 
 @interface SceneDelegate ()
+
+//@property (nonatomic, strong) MTAVPlayer *player;
 
 @end
 
@@ -15,6 +18,17 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
+//   self.player = [MTAVPlayer sharedAVPlayer];
+//
+//
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+//        view.backgroundColor = [UIColor orangeColor];
+//        [self.window addSubview:view];
+//        self.player.monitor = view;
+//        self.player.url = [NSURL URLWithString:@"http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"];
+//        [self.player play];
+//    });
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).

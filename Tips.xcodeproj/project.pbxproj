@@ -15,6 +15,10 @@
 		010AD958291E426400560786 /* MTImagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 010AD957291E426400560786 /* MTImagesCell.m */; };
 		010AD95B291E428C00560786 /* MTImagesCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 010AD95A291E428C00560786 /* MTImagesCellModel.m */; };
 		010AD95E291E434A00560786 /* NSArray+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 010AD95D291E434A00560786 /* NSArray+MTExtension.m */; };
+		011B3DA929405EB400F0D322 /* MTDynamicLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 011B3DA829405EB400F0D322 /* MTDynamicLaunchImage.m */; };
+		011B3DAC2940639800F0D322 /* MTLaunchImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 011B3DAB2940639800F0D322 /* MTLaunchImageHelper.m */; };
+		011B3DAF2940657B00F0D322 /* MTChangeLanuchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 011B3DAE2940657B00F0D322 /* MTChangeLanuchImage.m */; };
+		011B3DB129406BC300F0D322 /* DynamicLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011B3DB029406BC300F0D322 /* DynamicLaunchScreen.storyboard */; };
 		0130798528F7E6DF00AE82F7 /* MTVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0130798428F7E6DF00AE82F7 /* MTVideoEncoder.m */; };
 		0130798928F7E74B00AE82F7 /* MTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0130798828F7E74B00AE82F7 /* MTFrame.m */; };
 		0130798C28F7E7B100AE82F7 /* MTAudioFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0130798B28F7E7B100AE82F7 /* MTAudioFrame.m */; };
@@ -205,6 +209,13 @@
 		010AD95A291E428C00560786 /* MTImagesCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTImagesCellModel.m; sourceTree = "<group>"; };
 		010AD95C291E434A00560786 /* NSArray+MTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MTExtension.h"; sourceTree = "<group>"; };
 		010AD95D291E434A00560786 /* NSArray+MTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MTExtension.m"; sourceTree = "<group>"; };
+		011B3DA729405EB400F0D322 /* MTDynamicLaunchImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTDynamicLaunchImage.h; sourceTree = "<group>"; };
+		011B3DA829405EB400F0D322 /* MTDynamicLaunchImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTDynamicLaunchImage.m; sourceTree = "<group>"; };
+		011B3DAA2940639800F0D322 /* MTLaunchImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLaunchImageHelper.h; sourceTree = "<group>"; };
+		011B3DAB2940639800F0D322 /* MTLaunchImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLaunchImageHelper.m; sourceTree = "<group>"; };
+		011B3DAD2940657B00F0D322 /* MTChangeLanuchImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTChangeLanuchImage.h; sourceTree = "<group>"; };
+		011B3DAE2940657B00F0D322 /* MTChangeLanuchImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTChangeLanuchImage.m; sourceTree = "<group>"; };
+		011B3DB029406BC300F0D322 /* DynamicLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DynamicLaunchScreen.storyboard; sourceTree = "<group>"; };
 		0130798328F7E6DF00AE82F7 /* MTVideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTVideoEncoder.h; sourceTree = "<group>"; };
 		0130798428F7E6DF00AE82F7 /* MTVideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTVideoEncoder.m; sourceTree = "<group>"; };
 		0130798728F7E74B00AE82F7 /* MTFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFrame.h; sourceTree = "<group>"; };
@@ -532,6 +543,20 @@
 				0102D16B291BAAE70028F207 /* MTSignalingClient.m */,
 			);
 			path = WebRTC;
+			sourceTree = "<group>";
+		};
+		011B3DA629405D0200F0D322 /* ChangeLanuchImage */ = {
+			isa = PBXGroup;
+			children = (
+				011B3DA729405EB400F0D322 /* MTDynamicLaunchImage.h */,
+				011B3DA829405EB400F0D322 /* MTDynamicLaunchImage.m */,
+				011B3DAA2940639800F0D322 /* MTLaunchImageHelper.h */,
+				011B3DAB2940639800F0D322 /* MTLaunchImageHelper.m */,
+				011B3DAD2940657B00F0D322 /* MTChangeLanuchImage.h */,
+				011B3DAE2940657B00F0D322 /* MTChangeLanuchImage.m */,
+				011B3DB029406BC300F0D322 /* DynamicLaunchScreen.storyboard */,
+			);
+			path = ChangeLanuchImage;
 			sourceTree = "<group>";
 		};
 		0130798228F7E6AC00AE82F7 /* Encode */ = {
@@ -1277,6 +1302,7 @@
 		01E842C328F691AA00F9012D /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				011B3DA629405D0200F0D322 /* ChangeLanuchImage */,
 				019F996329247B89005D74F6 /* Tips-Bridging-Header.h */,
 				017C88A62914E0D600A7EFF4 /* SoftEncode */,
 				017C88912913A62C00A7EFF4 /* Cal */,
@@ -1437,6 +1463,7 @@
 				01A6E58E28F41D3C00A8DE17 /* Main.storyboard in Resources */,
 				019F99C22925D085005D74F6 /* umbagog.jpg in Resources */,
 				019F99BD2925D085005D74F6 /* hikeData.json in Resources */,
+				011B3DB129406BC300F0D322 /* DynamicLaunchScreen.storyboard in Resources */,
 				019F99C12925D085005D74F6 /* twinlake.jpg in Resources */,
 				019F99BA2925D085005D74F6 /* charleyrivers.jpg in Resources */,
 				01E842BF28F68DA000F9012D /* Assets.xcassets in Resources */,
@@ -1536,6 +1563,7 @@
 				0177B3C028F6A42E000873CD /* MTProxy.m in Sources */,
 				01A6E5A028F41D8100A8DE17 /* MTFaceDetectC.m in Sources */,
 				01A5DA4028F5148E00669676 /* MTImageDecoder.m in Sources */,
+				011B3DA929405EB400F0D322 /* MTDynamicLaunchImage.m in Sources */,
 				01A5DA6C28F545A200669676 /* MTTimer.m in Sources */,
 				01A5DA5D28F535BA00669676 /* MTDelayPerform.m in Sources */,
 				01A6E5B528F4F60600A8DE17 /* MTBlurView.m in Sources */,
@@ -1563,6 +1591,7 @@
 				01A5DA0328F4FF1B00669676 /* MTScanC.m in Sources */,
 				017FF65F291E1E2600A9488B /* MTFeedModel.m in Sources */,
 				019F99D529260419005D74F6 /* HexagonParameters.swift in Sources */,
+				011B3DAC2940639800F0D322 /* MTLaunchImageHelper.m in Sources */,
 				01A5DA3328F5115300669676 /* UIView+MTImage.m in Sources */,
 				0130798928F7E74B00AE82F7 /* MTFrame.m in Sources */,
 				01A5DA4E28F519AA00669676 /* MTEditTextV.m in Sources */,
@@ -1630,6 +1659,7 @@
 				01A5DA7528F5575700669676 /* MTScanV.m in Sources */,
 				0102D172291C90B80028F207 /* MTWebRTC.m in Sources */,
 				019F99DB2926051E005D74F6 /* BadgeSymbol.swift in Sources */,
+				011B3DAF2940657B00F0D322 /* MTChangeLanuchImage.m in Sources */,
 				019F99D929260509005D74F6 /* RotatedBadgeSymbol.swift in Sources */,
 				0177B3B228F6A1FE000873CD /* MTAPMCpu.m in Sources */,
 				01718EDD2907C49600FF38C3 /* MTSensorC.m in Sources */,

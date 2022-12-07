@@ -15,9 +15,9 @@
 /// @param avPlayer 播放器
 /// @param currentTime 当前时间
 /// @param totalTime 总时间
-- (void)avPlayer:(MTAVPlayer *)avPlayer playingToCurrentTime:(CMTime)currentTime totalTime:(CMTime)totalTime;
+- (void)avPlayer:(MTAVPlayer *_Nullable)avPlayer playingToCurrentTime:(CMTime)currentTime totalTime:(CMTime)totalTime;
 /// 播放结束 暂停
-- (void)playDidEndOnAvplyer:(MTAVPlayer *)avPlayer;
+- (void)playDidEndOnAvplyer:(MTAVPlayer *_Nullable)avPlayer;
 
 @end
 

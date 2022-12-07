@@ -44,6 +44,10 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+#ifdef DEBUG
+    // 仅用于测试，观察启动图
+    sleep(1.5);
+#endif
     self.title = @"iOS";
 //    self.fpsCount = 1;
 //    self.originView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.mt_width, self.view.mt_height / 2.0)];

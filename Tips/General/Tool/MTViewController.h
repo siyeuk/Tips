@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UILabel *)createLabelText:(NSString *)text frame:(CGRect)frame font:(UIFont *)font textColor:(UIColor *)textColor;
 - (UITextField *)createTextField:(NSString *)placeholder frame:(CGRect)frame font:(UIFont *)font textColor:(UIColor *)textColor;
-- (UIButton *)createButton:(NSString *)title frame:(CGRect)frame font:(UIFont *)font backgroundColor:(UIColor *)backgroundColor titleColor:(UIColor *)color target:(SEL)target;
+- (UIButton *)createButton:(NSString *)title frame:(CGRect)frame font:(UIFont *)font backgroundColor:(UIColor *_Nullable)backgroundColor titleColor:(UIColor *)color target:(SEL)target;
 
 @end
 
