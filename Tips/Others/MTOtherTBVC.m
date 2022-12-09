@@ -12,6 +12,7 @@
 #import "MTIGListKitC.h"
 #import "MTPanoramicPlayerC.h"
 #import "MTChangeLanuchImage.h"
+#import "MTAppGrayStyleC.h"
 #import "Tips-Swift.h"
 
 @interface MTOtherTBVC ()
@@ -35,7 +36,8 @@
 
 - (NSArray *)dataSource{
     if (!_dataSource) {
-        _dataSource = @[@"更改启动图",
+        _dataSource = @[@"灰白致敬",
+            @"更改启动图",
             @"ipa瘦身之扫描无用资源",
                         @"文件存Excel",
                         @"计算",
@@ -47,8 +49,8 @@
 }
 - (NSArray *)classArray{
     if (!_classArray) {
-        
-        _classArray = @[[MTChangeLanuchImage class],
+        _classArray = @[[MTAppGrayStyleC class],
+            [MTChangeLanuchImage class],
                         [MTUnusedResourceC class],
                         [MTExcelVC class],
                         [MTCalculatorC class],

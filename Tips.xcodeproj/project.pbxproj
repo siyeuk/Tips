@@ -19,6 +19,8 @@
 		011B3DAC2940639800F0D322 /* MTLaunchImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 011B3DAB2940639800F0D322 /* MTLaunchImageHelper.m */; };
 		011B3DAF2940657B00F0D322 /* MTChangeLanuchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 011B3DAE2940657B00F0D322 /* MTChangeLanuchImage.m */; };
 		011B3DB129406BC300F0D322 /* DynamicLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011B3DB029406BC300F0D322 /* DynamicLaunchScreen.storyboard */; };
+		011B3DB529430B7A00F0D322 /* MTAppGrayStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 011B3DB429430B7A00F0D322 /* MTAppGrayStyle.m */; };
+		011B3DB8294310E300F0D322 /* MTAppGrayStyleC.m in Sources */ = {isa = PBXBuildFile; fileRef = 011B3DB7294310E300F0D322 /* MTAppGrayStyleC.m */; };
 		0130798528F7E6DF00AE82F7 /* MTVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0130798428F7E6DF00AE82F7 /* MTVideoEncoder.m */; };
 		0130798928F7E74B00AE82F7 /* MTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0130798828F7E74B00AE82F7 /* MTFrame.m */; };
 		0130798C28F7E7B100AE82F7 /* MTAudioFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0130798B28F7E7B100AE82F7 /* MTAudioFrame.m */; };
@@ -216,6 +218,10 @@
 		011B3DAD2940657B00F0D322 /* MTChangeLanuchImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTChangeLanuchImage.h; sourceTree = "<group>"; };
 		011B3DAE2940657B00F0D322 /* MTChangeLanuchImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTChangeLanuchImage.m; sourceTree = "<group>"; };
 		011B3DB029406BC300F0D322 /* DynamicLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DynamicLaunchScreen.storyboard; sourceTree = "<group>"; };
+		011B3DB329430B7A00F0D322 /* MTAppGrayStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppGrayStyle.h; sourceTree = "<group>"; };
+		011B3DB429430B7A00F0D322 /* MTAppGrayStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppGrayStyle.m; sourceTree = "<group>"; };
+		011B3DB6294310E300F0D322 /* MTAppGrayStyleC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppGrayStyleC.h; sourceTree = "<group>"; };
+		011B3DB7294310E300F0D322 /* MTAppGrayStyleC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppGrayStyleC.m; sourceTree = "<group>"; };
 		0130798328F7E6DF00AE82F7 /* MTVideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTVideoEncoder.h; sourceTree = "<group>"; };
 		0130798428F7E6DF00AE82F7 /* MTVideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTVideoEncoder.m; sourceTree = "<group>"; };
 		0130798728F7E74B00AE82F7 /* MTFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFrame.h; sourceTree = "<group>"; };
@@ -557,6 +563,17 @@
 				011B3DB029406BC300F0D322 /* DynamicLaunchScreen.storyboard */,
 			);
 			path = ChangeLanuchImage;
+			sourceTree = "<group>";
+		};
+		011B3DB229430B5600F0D322 /* APPGrayStyle */ = {
+			isa = PBXGroup;
+			children = (
+				011B3DB329430B7A00F0D322 /* MTAppGrayStyle.h */,
+				011B3DB429430B7A00F0D322 /* MTAppGrayStyle.m */,
+				011B3DB6294310E300F0D322 /* MTAppGrayStyleC.h */,
+				011B3DB7294310E300F0D322 /* MTAppGrayStyleC.m */,
+			);
+			path = APPGrayStyle;
 			sourceTree = "<group>";
 		};
 		0130798228F7E6AC00AE82F7 /* Encode */ = {
@@ -1302,6 +1319,7 @@
 		01E842C328F691AA00F9012D /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				011B3DB229430B5600F0D322 /* APPGrayStyle */,
 				011B3DA629405D0200F0D322 /* ChangeLanuchImage */,
 				019F996329247B89005D74F6 /* Tips-Bridging-Header.h */,
 				017C88A62914E0D600A7EFF4 /* SoftEncode */,
@@ -1586,6 +1604,7 @@
 				010AD95E291E434A00560786 /* NSArray+MTExtension.m in Sources */,
 				019F99712924AFBE005D74F6 /* MTColor.swift in Sources */,
 				013079C828F8FDCE00AE82F7 /* WKWebView+MTExtension.m in Sources */,
+				011B3DB529430B7A00F0D322 /* MTAppGrayStyle.m in Sources */,
 				017FF65A291E1B6000A9488B /* MTIGListKitC.m in Sources */,
 				0187EEFC2908C411009049C1 /* MTBallTool.m in Sources */,
 				01A5DA0328F4FF1B00669676 /* MTScanC.m in Sources */,
@@ -1702,6 +1721,7 @@
 				0102D169291BAA770028F207 /* MTWebRTCC.m in Sources */,
 				017FF666291E237700A9488B /* MTUserInfoCell.m in Sources */,
 				019F99EC29263355005D74F6 /* CustomContentView.swift in Sources */,
+				011B3DB8294310E300F0D322 /* MTAppGrayStyleC.m in Sources */,
 				0187EEEF2908C27C009049C1 /* MTAccelerometerC.m in Sources */,
 				01E842C228F68DE000F9012D /* MTWaterMarkC.m in Sources */,
 			);
